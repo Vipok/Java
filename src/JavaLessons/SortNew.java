@@ -1,3 +1,5 @@
+package JavaLessons;
+
 public class SortNew {
     public static void main(String[] args) {
         int[] a = {2,1,4,8,7,5,6,3};
@@ -14,7 +16,6 @@ public class SortNew {
         for (int n:a
              ) {
             System.out.print(n + " ");
-
-        };
+        }
     }
 }

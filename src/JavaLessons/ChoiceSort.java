@@ -1,3 +1,5 @@
+package JavaLessons;
+
 import java.util.Arrays;
 
 public class ChoiceSort {

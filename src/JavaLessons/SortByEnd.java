@@ -1,13 +1,15 @@
-public class Sort {
+package JavaLessons;
+
+public class SortByEnd {
     public static void main(String[] args) {
         int[] a = {65,23,654,12,24,15,87,54,5,96};
-        for (int i = 0; i < a.length; i++) {
-            int b = a[i];
-            for (int j = i - 1; j >= 0; j--) {
+        for (int i = a.length; i > 0; i--) {
+            int b = a[i - 1];
+            for (int j = i; j < a.length; j++) {
                 int c = a[j];
                 if(b < c){
-                a[j + 1] = c;
-                a[j] = b;
+                    a[j - 1] = c;
+                    a[j] = b;
                 }else {
                     break;
                 }

@@ -1,3 +1,5 @@
+package HomeWorkSort;
+
 public class ShellSort {
     public static void main(String[] args) {
         int [] a = {5,6,4,8,1,9,3,2};

@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218c48bb-88c2-41a1-b0d3-110008c91d19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChoiceSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaLessons/ThanosSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/FirstProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/Get.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/ChoiceSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/FibonacciNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/For.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/OperatorIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/SortByEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/SortNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/ThanosSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChoiceSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLessons/ChoiceSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/For.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkSort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLessons/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortByEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLessons/SortByEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLessons/SortNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThanosSort.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +37,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ShellSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThanosSort.java">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsArthropod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="255">
+              <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodsSpiders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,14 +108,38 @@
         <option value="$PROJECT_DIR$/src/SortByEnd.java" />
         <option value="$PROJECT_DIR$/src/Sort.java" />
         <option value="$PROJECT_DIR$/src/Get.java" />
-        <option value="$PROJECT_DIR$/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/FirstProgram.java" />
         <option value="$PROJECT_DIR$/src/ChoiceSort.java" />
         <option value="$PROJECT_DIR$/src/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/SortNew.java" />
-        <option value="$PROJECT_DIR$/src/ThanosSort.java" />
         <option value="$PROJECT_DIR$/src/TestOne.java" />
         <option value="$PROJECT_DIR$/src/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Testt.java" />
+        <option value="$PROJECT_DIR$/src/ThanosSort.java" />
+        <option value="$PROJECT_DIR$/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/SortNew.java" />
+        <option value="$PROJECT_DIR$/src/Box.java" />
+        <option value="$PROJECT_DIR$/src/LessonsClasses.java" />
+        <option value="$PROJECT_DIR$/src/Cat.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Animal.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Chord.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Turtles.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/Turtles.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/Elephants.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ChordsElephants.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ChordTurtles.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ChordHumans.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/Arthropod.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsEchinodermis.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodCrayfish.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/Spiders.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodsMosquitoes.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaStar.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaUrchins.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaLilies.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsArthropod.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodsSpiders.java" />
       </list>
     </option>
   </component>
@@ -90,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -104,10 +170,17 @@
               <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWorkAnimals" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,37 +198,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
-    <configuration name="ChoiceSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChoiceSort" />
+  <component name="RunManager" selected="Application.ArthropodsSpiders">
+    <configuration name="ArthropodsSpiders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorkAnimals.ArthropodsSpiders" />
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorkAnimals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLessons.Cat" />
       <module name="ProjectJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShellSort" />
+      <option name="MAIN_CLASS_NAME" value="HomeWorkSort.ShellSort" />
       <module name="ProjectJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SortNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortNew" />
-      <module name="ProjectJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestOne" />
+      <option name="MAIN_CLASS_NAME" value="JavaLessons.SortNew" />
       <module name="ProjectJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ThanosSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThanosSort" />
+      <option name="MAIN_CLASS_NAME" value="JavaLessons.ThanosSort" />
       <module name="ProjectJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.TestOne" />
-        <item itemvalue="Application.ThanosSort" />
+        <item itemvalue="Application.ArthropodsSpiders" />
+        <item itemvalue="Application.Cat" />
         <item itemvalue="Application.SortNew" />
-        <item itemvalue="Application.ChoiceSort" />
+        <item itemvalue="Application.ThanosSort" />
+        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -188,8 +267,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49046323" visible="true" weight="0.2685325" />
-      <window_info id="Structure" order="1" sideWeight="0.5095368" side_tool="true" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48214287" visible="true" weight="0.28517398" />
+      <window_info id="Structure" order="1" sideWeight="0.51785713" side_tool="true" visible="true" weight="0.28517398" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -197,8 +276,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2667758" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2667758" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2913257" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -218,99 +297,190 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Get.java" />
+    <entry file="file://$PROJECT_DIR$/src/For.java" />
+    <entry file="file://$PROJECT_DIR$/src/FibonacciNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestOne.java" />
+    <entry file="file://$PROJECT_DIR$/src/Array.java" />
+    <entry file="file://$PROJECT_DIR$/src/BubbleSort.java" />
     <entry file="file://$PROJECT_DIR$/src/MergeSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OperatorIf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/For.java">
+    <entry file="file://$PROJECT_DIR$/src/OperatorIf.java" />
+    <entry file="file://$PROJECT_DIR$/src/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Thanos.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkSort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FibonacciNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ChordHumans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestOne.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ChordTurtles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ChordElephants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsChord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortByEnd.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsEchinodermis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChoiceSort.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/ThanosSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/Testt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/SortNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/SortByEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/ChoiceSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThanosSort.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodsMosquitoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="34">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortNew.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaUrchins.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="34">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaLilies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/EchinodermisSeaStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodCrayfish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsArthropod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/ArthropodsSpiders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
