@@ -13,5 +13,4 @@ public class MammaliaElephants extends AnimalsMammalia {
     protected void useProboscis(){
         System.out.println("Использовать хобот");
     }
-
 }
