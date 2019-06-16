@@ -5,6 +5,8 @@ public class Animals {
     private String title;//название
     private int lifespan;//продолжительнсть жизни
     private double weight;//масса
+    private String color;//цвет
+    private int speed;//скорость передвижения
 //геты
     protected String getTitle() {
         return title;
@@ -15,6 +17,8 @@ public class Animals {
     protected double getWeight() {
         return weight;
     }
+    protected String getColor() {return color;}
+    protected int getSpeed() {return speed;}
 //сеты
     protected void setTitle(String title) {
         this.title = title;
@@ -22,9 +26,9 @@ public class Animals {
     protected void setLifespan(int lifespan) {
         this.lifespan = lifespan;
     }
-    protected void setWeight(double weight) {
-        this.weight = weight;
-    }
+    protected void setWeight(double weight) { this.weight = weight; }
+    protected void setColor(String color) {this.color = color;}
+    protected void setSpeed(int speed) {this.speed = speed;}
 //методы, присущие животным
     protected void breath(){
         System.out.println("Дыхание");
@@ -40,7 +44,8 @@ public class Animals {
     }
     protected void info(String title, int lifespan, double weight){
         System.out.println("Вид: " + title + ". Продолжительность жизни: "
-                + lifespan + ". Масса в килограммах: " + weight);
+                + lifespan + ". Масса в килограммах: " + weight + ". Цвет: " + color +
+                ". Скорость передвижения: " + speed);
     }
 
 }
