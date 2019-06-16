@@ -19,8 +19,8 @@ public class AnimalsAves extends Animals {
     protected void setTailLength(int tailLength) {this.tailLength = tailLength;}
 //методы, присущие птицам
     protected void flight(){ System.out.println("Полёт"); }
-    protected void info(String title ,int wingspan){
-        System.out.println("Вид: " + title + ". Размах крыла: " + wingspan + ". Длина клюва: " + beakLenght +
-                ". Длина хвоста: " + tailLength);
+    protected void info(String getTitle, int getWingspan ,int getBeakLenght, int getTailLength){
+        System.out.println("Вид птицы: " + getTitle() + ". Размах крыла: " + getWingspan + ". Длина клюва: " + getBeakLenght +
+                ". Длина хвоста: " + getTailLength);
     }
 }

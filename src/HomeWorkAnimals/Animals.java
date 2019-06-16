@@ -42,10 +42,10 @@ public class Animals {
     protected void sleep(){
         System.out.println("Сон");
     }
-    protected void info(String title, int lifespan, double weight){
-        System.out.println("Вид: " + title + ". Продолжительность жизни: "
-                + lifespan + ". Масса в килограммах: " + weight + ". Цвет: " + color +
-                ". Скорость передвижения: " + speed);
+    protected void info(String getTitle, int getLifespan, double getWeight, String getColor, int getSpeed){
+        System.out.println("Вид: " + getTitle + ". Продолжительность жизни: "
+                + getLifespan + ". Масса в килограммах: " + getWeight + ". Цвет: " + getColor +
+                ". Скорость передвижения: " + getSpeed);
     }
 
 }

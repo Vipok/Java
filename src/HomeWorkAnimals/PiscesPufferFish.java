@@ -10,5 +10,7 @@ public class PiscesPufferFish extends AnimalsPisces {
     protected void bloatBalloon (){
         System.out.println("Раздуться в шар");
     }
-
+    protected void info(int spikes){
+        System.out.println("Количество шипов у данной особи равно " + spikes);
+    }
 }
