@@ -1,10 +1,10 @@
 package HomeWorkAnimals;
 
 public class PiscesSalpa extends AnimalsPisces {
-    protected int colorOfScales;
+    protected String colorOfScales;
 
-    protected int getColorOfScales() {return colorOfScales;}
-    protected void setColorOfScales(int colorOfScales){this.colorOfScales = colorOfScales;}
+    protected String getColorOfScales() {return colorOfScales;}
+    protected void setColorOfScales(String colorOfScales){this.colorOfScales = colorOfScales;}
 
     protected void changeColor(){
         System.out.println("Изменить цвет на " + colorOfScales);
