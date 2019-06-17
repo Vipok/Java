@@ -3,13 +3,16 @@ package HomeWorkAnimals;
 public class MammaliaBlueWhale extends AnimalsMammalia {
     private int mostache;//количество усов
 
-    protected int getMostache() {return mostache;}
-    protected void setMostache(int mostache) {this.mostache = mostache;}
+    public int getMostache() {return mostache;}
+    public void setMostache(int mostache) {this.mostache = mostache;}
 
-    protected void fountain(){
+    public void fountain(){
         System.out.println("Выпустить фонтан из спины");
     }
-    protected void collectPlancton(){
+    public void collectPlancton(){
         System.out.println("Собирать планктон");
+    }
+    public void info(String getNickname, int getMostache){
+        System.out.println("У кита " + getNickname + " " + getMostache + " усов.");
     }
 }

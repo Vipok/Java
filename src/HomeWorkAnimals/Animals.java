@@ -1,51 +1,51 @@
 package HomeWorkAnimals;
 
-public class Animals {
+ class Animals {
 
-    private String title;//название
-    private int lifespan;//продолжительнсть жизни
+    private String title;//название вида
+    private String nickname;//кличка отдельного животного
+    private int age;//возраст в годах
     private double weight;//масса
     private String color;//цвет
-    private int speed;//скорость передвижения
+    private int maxSpeed;//максимальная скорость передвижения
 //геты
-    protected String getTitle() {
+    public String getTitle() {
         return title;
     }
-    protected int getLifespan() {
-        return lifespan;
+     public String getNickname() {return nickname;}
+     public int getAge() {
+        return age;
     }
-    protected double getWeight() {
+     public double getWeight() {
         return weight;
     }
-    protected String getColor() {return color;}
-    protected int getSpeed() {return speed;}
+     public String getColor() {return color;}
+     public int getMaxSpeed() {return maxSpeed;}
 //сеты
-    protected void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
-    protected void setLifespan(int lifespan) {
-        this.lifespan = lifespan;
+     public void setNickname(String nickname){this.nickname = nickname;}
+     public void setAge(int age) {
+        this.age = age;
     }
-    protected void setWeight(double weight) { this.weight = weight; }
-    protected void setColor(String color) {this.color = color;}
-    protected void setSpeed(int speed) {this.speed = speed;}
+     public void setWeight(double weight) { this.weight = weight; }
+     public void setColor(String color) {this.color = color;}
+     public void setMaxSpeed(int maxSpeed) {this.maxSpeed = maxSpeed;}
 //методы, присущие животным
-    protected void breath(){
+    public void breath(){
         System.out.println("Дыхание");
     }
-    protected void nutrition(){
+     public void nutrition(){
         System.out.println("Питание");
     }
-    protected void movement(){
-        System.out.println("Движение");
+     public void movement(){
+        System.out.println("Передвижение");
     }
-    protected void sleep(){
+     public void sleep(){
         System.out.println("Сон");
     }
-    protected void info(String getTitle, int getLifespan, double getWeight, String getColor, int getSpeed){
-        System.out.println("Вид: " + getTitle + ". Продолжительность жизни: "
-                + getLifespan + ". Масса в килограммах: " + getWeight + ". Цвет: " + getColor +
-                ". Скорость передвижения: " + getSpeed);
+     public void battle(){ System.out.println("Драться за выживание"); }
+
     }
 
-}

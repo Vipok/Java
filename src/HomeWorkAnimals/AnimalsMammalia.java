@@ -1,17 +1,29 @@
 package HomeWorkAnimals;
 
-public class AnimalsMammalia extends Animals {
+ class AnimalsMammalia extends Animals {
 
-    private String blood;
+    private int viviparousChildren;//количество живорожденных детей
+    private int teeth;//количество зубов
 
-    protected String getBlood() {
-        return blood;
+
+     public int getViviparousChildren() { return viviparousChildren; }
+     public int getTeeth() {return teeth;}
+
+     public void setViviparousChildren(int viviparousChildren) {
+        this.viviparousChildren = viviparousChildren;
     }
-    protected void setBlood(String blood) {
-        this.blood = blood;
-    }
+     public void setTeeth(int teeth) { this.teeth = teeth; }
 
-    protected void feedingMilk (){
+     public void feedingMilk (String getNickname){
         System.out.println("Кормление молоком");
     }
+     public void averageInfo(String getTitle, int getViviparousChildren, int getTeeth){
+        System.out.println("Усредненная информация по виду " + getTitle + ", относящемуся к подтипу млекопитающих:" +
+                " cреднее количество живорожденных детей за жизнь равно " + getViviparousChildren +
+                ", среднее количество зубов равно " +getTeeth + ".");
+    }
+     protected void quiletLife(){
+         System.out.println("Спокойная жизнь");
+     }
+
 }

@@ -3,11 +3,15 @@ package HomeWorkAnimals;
 public class PiscesSalpa extends AnimalsPisces {
     private String colorOfScales;
 
-    protected String getColorOfScales() {return colorOfScales;}
-    protected void setColorOfScales(String colorOfScales){this.colorOfScales = colorOfScales;}
+    public String getColorOfScales(String getNickname) {return colorOfScales;}
+    public void setColorOfScales(String colorOfScales){this.colorOfScales = colorOfScales;}
 
-    protected void changeColor(String getColorOfScales){
-        System.out.println("Цвет Салпы сейчас: " + getColorOfScales );
+    public void changeColor(String getNickname, String getColorOfScales){
+        System.out.println("Цвет у " + getNickname + " в данный момент - " + getColorOfScales );
+    }
+    @Override
+    public void becomeACatch(){
+        System.out.println("Стану невидимой и не поймают");
     }
 
 }
