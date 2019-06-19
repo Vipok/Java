@@ -29,17 +29,29 @@ public class MammaliaHumans extends AnimalsMammalia {
                 " годам у неё (него) скорость чтения равна " + readSpeed + " слов в минуту. На её (его) счету "
                 + getMoney + " евро.");
     }
-
     @Override
-    public void quiletLife(){
-        System.out.println("Какая тут спокойная жизнь, если пора на завод?");
+    public void feedingMilk(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void breath(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void nutrition(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void movement(){
+        System.out.println("какой-то пример");
+    }@Override
+public void sleep(){
+    System.out.println("какой-то пример");
+}
+    @Override
+    public void battle(){
+        System.out.println("какой-то пример");
     }
 
-    public static void main(String[] args) {
-        AnimalsMammalia s = new AnimalsMammalia();
-        AnimalsMammalia s1 = new MammaliaHumans();
-        s.quiletLife();
-        s1.quiletLife();
-    }
 }
 

@@ -1,6 +1,6 @@
 package HomeWorkAnimals;
 
- class AnimalsPisces extends Animals {
+ abstract class AnimalsPisces extends Animals {
 
     private int fins;//количество плавников
     private int gillSlits;//жаберные щели
@@ -14,9 +14,7 @@ package HomeWorkAnimals;
     public void setGillSlits(int gillSlits){this.gillSlits = gillSlits;}
     public void setImmersionDepth(int immersionDepth){this.immersionDepth = immersionDepth;}
 
-    public void swimming (String getNickname){
-        System.out.println("Плавание");
-    }
+    public abstract void swimming();//плавание
     public void averageInfo (String getTitle, int getFins, int getGillSlits, int getImmersionDepth){
         System.out.println("Усредненная информация по виду " + getTitle + ", относящемуся к подтипу рыб: " +
                 "количество плавников равно " + getFins + ", количество жаберных щелей равно " + getGillSlits +

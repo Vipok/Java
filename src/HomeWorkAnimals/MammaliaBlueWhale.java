@@ -14,5 +14,29 @@ public class MammaliaBlueWhale extends AnimalsMammalia {
     }
     public void info(String getNickname, int getMostache){
         System.out.println("У кита " + getNickname + " " + getMostache + " усов.");
+
     }
+    @Override
+    public void feedingMilk(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void breath(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void nutrition(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void movement(){
+        System.out.println("какой-то пример");
+    }@Override
+    public void sleep(){
+        System.out.println("какой-то пример");
+    }
+    @Override
+    public void battle(){
+    System.out.println("какой-то пример");
+}
 }

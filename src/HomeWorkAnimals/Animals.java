@@ -1,6 +1,6 @@
 package HomeWorkAnimals;
 
- class Animals {
+abstract class Animals {
 
     private String title;//название вида
     private String nickname;//кличка отдельного животного
@@ -32,20 +32,11 @@ package HomeWorkAnimals;
      public void setWeight(double weight) { this.weight = weight; }
      public void setColor(String color) {this.color = color;}
      public void setMaxSpeed(int maxSpeed) {this.maxSpeed = maxSpeed;}
-//методы, присущие животным
-    public void breath(){
-        System.out.println("Дыхание");
-    }
-     public void nutrition(){
-        System.out.println("Питание");
-    }
-     public void movement(){
-        System.out.println("Передвижение");
-    }
-     public void sleep(){
-        System.out.println("Сон");
-    }
-     public void battle(){ System.out.println("Драться за выживание"); }
-
+//абстрактные методы, присущие животным
+     public abstract void breath();//дыхание
+     public abstract void nutrition();//питание
+     public abstract void movement();//передвижение
+     public abstract void sleep();//сон
+     public abstract void battle();//драться за выживание
     }
 
