@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="218c48bb-88c2-41a1-b0d3-110008c91d19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCondor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCondor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesJakoParrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesJakoParrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaElephants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaElephants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaHumans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaHumans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesPufferFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesPufferFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,79 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/PiscesPufferFish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaElephants.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaHumans.java" />
-        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesPufferFish.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java" />
       </list>
     </option>
   </component>
@@ -184,6 +100,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,10 +231,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4680851" visible="true" weight="0.31694403" />
-      <window_info id="Structure" order="1" sideWeight="0.5319149" side_tool="true" visible="true" weight="0.31694403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46644846" visible="true" weight="0.3214826" />
+      <window_info id="Structure" order="1" sideWeight="0.5335516" side_tool="true" visible="true" weight="0.3214826" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -431,77 +346,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesJakoParrot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesCrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesCondor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaHumans.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -544,38 +388,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -593,13 +412,81 @@
     <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="e#503#504#0" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesCondor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesCrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AvesJakoParrot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
