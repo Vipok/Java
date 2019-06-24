@@ -15,5 +15,6 @@ package HomeWorkAnimals;
     public void setImmersionDepth(int immersionDepth){this.immersionDepth = immersionDepth;}
 
     public abstract void swimming();//плавание
+    public abstract void becomeACatch();//быть пойманным
 }
 
