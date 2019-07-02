@@ -1,6 +1,6 @@
 package HomeWorkJavaCore;
 
-public class Kittens {
+public abstract class Kittens {
     private String nickname;//кличка
     private int age;//возраст в днях
     private int growth;//рост в сантиметрах
@@ -19,21 +19,12 @@ public class Kittens {
     public void setWeight(int weight){this.weight = weight;}
     public void setColor(String color){this.color = color;}
 
-    public void addKittens(String getNickname, int getAge, int getGrowth, int getWeight, String getColor){
+    public void addKittens(String getName){
         System.out.println("Вы успешно добавили котёнка: \nКличка: " + getNickname() +
                 "\nВозраст (в днях): " + getAge() + "\nРост (в сантиметрах): " + getGrowth() +
                 "\nВес (в граммах): " + getWeight() + "\nЦвет: " + getColor());
     }
 
-    public static void main(String[] args) {
-        Kittens barsic = new Kittens();
-        barsic.setNickname("Barsic");
-        barsic.setAge(29);
-        barsic.setGrowth(21);
-        barsic.setWeight(300);
-        barsic.setColor("Gray");
-        barsic.addKittens(barsic.getNickname(),barsic.getAge(), barsic.getGrowth(), barsic.getWeight(),
-                barsic.getColor());
-    }
+
 }
 
