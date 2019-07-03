@@ -5,6 +5,7 @@ public class TestKittens {
     public static void main(String[] args) {
         KittensGUI test = new KittensGUI();
         test.setVisible(true);
+
     }
 }
 

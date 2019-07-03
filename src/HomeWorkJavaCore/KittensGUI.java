@@ -8,23 +8,7 @@ import java.io.IOException;
 import javax.swing.*;
 
 public class KittensGUI extends JFrame {
-    private String nickname;//кличка
-    private int age;//возраст в днях
-    private int growth;//рост в сантиметрах
-    private int weight;//вес в граммах
-    private String color;//цвет
-    //сеттеры
-    public String getNickname(){return nickname;}
-    public int getAge() {return age;}
-    public int getGrowth(){return growth;}
-    public int getWeight(){return weight;}
-    public String getColor(){return color;}
-    //геттеры
-    public void setNickname(String nickname){this.nickname = nickname;}
-    public void setAge(int age){this.age = age;}
-    public void setGrowth(int growth){this.growth = growth;}
-    public void setWeight(int weight){this.weight = weight;}
-    public void setColor(String color){this.color = color;}
+    Kittens kit = new Kittens();
 
     private JButton addKitten = new JButton("Добавить котёнка");
     protected JTextField inputNickname = new JTextField("", 1);
@@ -62,15 +46,15 @@ public class KittensGUI extends JFrame {
         container.add(addKitten);
     }
 
-class LogicsGui implements ActionListener{
+    class LogicsGui implements ActionListener{
         public void actionPerformed (ActionEvent e) {
             if (e.getSource()==addKitten){
-                setNickname(inputNickname.getText());
-                setAge(Integer.parseInt(inputAge.getText()));
-                setGrowth(Integer.parseInt(inputGrowth.getText()));
-                setWeight(Integer.parseInt(inputWeight.getText()));
-                setColor(inputColor.getText());
-            }
+
+                    kit.setNickname(inputNickname.getText());
+                    kit.setAge(Integer.parseInt(inputAge.getText()));
+                    kit.setGrowth(Integer.parseInt(inputGrowth.getText()));
+                    kit.setWeight(Integer.parseInt(inputWeight.getText()));
+                    kit.setColor(inputColor.getText());
             if (e.getSource()==addKitten){
                 inputNickname.setText(null);
                 inputAge.setText(null);
@@ -78,29 +62,18 @@ class LogicsGui implements ActionListener{
                 inputWeight.setText(null);
                 inputColor.setText(null);
             }
-            FileWriter file = null;
+            FileWriter file;
             try {
                 file = new FileWriter("text.txt");
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-            try {
-                file.write(getNickname() + ", " + getAge() + ", " + getGrowth() + ", " + getWeight() + ", " + getColor());
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-            try {
+                file.write(kit.getNickname() + ", " + kit.getAge() + ", " + kit.getGrowth() + ", "
+                        + kit.getWeight() + ", " + kit.getColor());
                 file.close();
+                final String message = "Вы успешно добавили котенка.";
+                JOptionPane.showMessageDialog(null, message, "Успех", JOptionPane.PLAIN_MESSAGE);
             } catch (IOException ex) {
-                ex.printStackTrace();
+                final String messageError = "Что-то пошло не так.";
+                JOptionPane.showMessageDialog(null, messageError, "Неудача", JOptionPane.PLAIN_MESSAGE);
             }
-
-            String message;
-            String messageError;
-            message = "Вы успешно добавили котенка.";
-            messageError = "Что-то пошло не так.";
-            JOptionPane.showMessageDialog(null, message, "Успех", JOptionPane.PLAIN_MESSAGE);
+        }
     }
-}
-}
-
+}}
