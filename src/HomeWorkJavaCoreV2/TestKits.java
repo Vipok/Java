@@ -3,10 +3,11 @@ package HomeWorkJavaCoreV2;
 import java.io.IOException;
 
 public class TestKits{
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         //KittensCommands kit = new KittensCommands();
-        //WriteFileKittens kit = new WriteFileKittens();
-        ReadFileKittens kit = new ReadFileKittens();
+        //WriteFileKittens kits = new WriteFileKittens();
+        //ReadFileKittens kit = new ReadFileKittens();
+        AddKittensForSale kit = new AddKittensForSale();
     }
 
     }

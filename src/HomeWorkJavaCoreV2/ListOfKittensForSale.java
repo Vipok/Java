@@ -1,15 +1,16 @@
 package HomeWorkJavaCoreV2;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 
-public class ReadFileKittens {
-    File file = new File("KittensList.txt");
+public class ListOfKittensForSale {
+    File sale = new File("SaleList.txt");
 
-    ReadFileKittens() throws IOException {
-
+    public ListOfKittensForSale() throws IOException {
         boolean test = true;
         do {
-            FileInputStream stream = new FileInputStream(file);
+            FileInputStream stream = new FileInputStream(sale);
             int length = stream.available();
             byte[] data = new byte[length];
             stream.read(data);

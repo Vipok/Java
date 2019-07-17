@@ -1,4 +1,2 @@
-Lobster, 115, 30, 5000, Red
-Bodya, 34, 32, 3400, Gray
-Test, 232, 232, 232, Test
-Testt, 23223, 23213, 31231, Testt
+Id: 1563299721766; Nickname: Kitya; Age (days): 23; Growth: 42; Weight: 23; Color: Gray
+Id: 1563299739824; Nickname: Jack; Age (days): 5234; Growth: 454; Weight: 34; Color: Blye
