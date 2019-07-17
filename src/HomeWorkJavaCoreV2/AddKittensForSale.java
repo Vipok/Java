@@ -39,8 +39,7 @@ public class AddKittensForSale {
                 String confirm = scanner.next();
                 switch (confirm) {
                     case "Y":
-                        //Добавить проверку присутсвия котенка на продаже
-                        System.out.println("Логика добавления кота");
+                        //Добавить проверку (по key) присутсвия котенка в списке продаж (избежание дублей).
                         String p = params[2];
                         p = p.replaceAll("\\D+", "");
                         int pp = Integer.parseInt(p);
