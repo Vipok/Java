@@ -8,9 +8,11 @@ public class KittensCommands extends Kittens {
     Scanner scanner = new Scanner(System.in);
     String textMessage = "List of available commands: \n" +
             "-addKits - Add kittens \n" +
+            "-edit - To edit the parameters of kittens \n" +
             "-listKits - List of kittens \n" +
-            "-saleKits - Sale of kittens \n" +
-            "-listSaleKits - List of kittens for sale \n" +
+            "-addKitsInSale - Add kittens for sale \n" +
+            "-listSale - List of kittens for sale \n" +
+            "-sale - Sale of kittens \n" +
             "-exit - Exit this program";
 
 
@@ -31,33 +33,31 @@ public class KittensCommands extends Kittens {
                                 WriteFileKittens writeFileKittens = new WriteFileKittens();
                                 System.out.println(textMessage);
                                 break;
+                            case "-edit":
+                                //написать логику редактирования параметров
+                                EditParameters editParameters = new EditParameters();
+                                System.out.println(textMessage);
                             case "-listKits":
                                 ReadFileKittens readFileKittens = new ReadFileKittens();
                                 System.out.println("\n \n" + textMessage);
                                 break;
                             case "-addKitsInSale":
                                 AddKittensForSale addKittensInSale = new AddKittensForSale();
+                                System.out.println(textMessage);
                                 break;
-                            case "-saleKits":
+                            case "-listSale":
                                 ListOfKittensForSale listOfKittensForSale = new ListOfKittensForSale();
+                                System.out.println("\n \n" + textMessage);
                                 break;
-                            case "-listSaleKits":
-                                ReadFileSale readFileSale = new ReadFileSale();
-                                break;
-                            case "-kitsChao":
-                                
+                            case "-sale":
+                                //написать логику продажи котят
+                                SaleForKittens saleForKittens = new SaleForKittens();
+                                System.out.println(textMessage);
                             case "-exit":
                                 test = false;
                                 break;
                             default:
-                                System.out.println("Not found this command. \n" +
-                                        "List of available commands: \n" +
-                                        "Enter -help to see a list of available commands" +
-                                        "-addKits - Add kittens \n" +
-                                        "-listKits - List of kittens \n" +
-                                        "-saleKits - Sale of kittens \n" +
-                                        "-listSaleKits - List of kittens for sale \n" +
-                                        "-exit - Exit this program");
+                                System.out.println("Not found this command. \n" + textMessage);
                                 break;
                         }
 

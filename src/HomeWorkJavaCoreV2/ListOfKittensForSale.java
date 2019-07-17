@@ -8,6 +8,7 @@ public class ListOfKittensForSale {
     File sale = new File("SaleList.txt");
 
     public ListOfKittensForSale() throws IOException {
+        System.out.println("Sale of kittens");
         boolean test = true;
         do {
             FileInputStream stream = new FileInputStream(sale);

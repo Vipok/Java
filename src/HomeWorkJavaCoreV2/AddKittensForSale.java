@@ -52,7 +52,7 @@ public class AddKittensForSale {
                             fos.close();
                             System.out.println("Kitten successfully put up for sale.");
                             //подумать над логикой выхода в меню (как вариант, использовать цикл).
-                        }else {
+                        } else {
                             System.out.println("Kitten less than 2 mounts.");
                         }
                         break;
