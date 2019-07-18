@@ -8,16 +8,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class AddKittensForSale {
-    final static Integer age = 60;
-    File file = new File("KittensList.txt");
-    File sale = new File("SaleList.txt");
+class AddKittensForSale {
+    private final static Integer age = 60;
 
-    public AddKittensForSale() throws IOException {
+    AddKittensForSale() throws IOException {
         Scanner scanner = new Scanner(System.in);
         Kittens kits = new Kittens();
         System.out.println("Enter the Id of the kitten you want to add for sale: ");
         kits.setId(scanner.nextLong());
+        File file = new File("KittensList.txt");
         FileInputStream stream = new FileInputStream(file);
         int length = stream.available();
         byte[] data = new byte[length];
@@ -36,34 +35,35 @@ public class AddKittensForSale {
                 String par = Arrays.toString(params);
                 System.out.println(Arrays.toString(params));
                 System.out.println("Do you want to add this kitten to your list for sale? Y (yes) or N(no)");
-                String confirm = scanner.next();
-                switch (confirm) {
-                    case "Y":
-                        //Добавить проверку (по key) присутсвия котенка в списке продаж (избежание дублей).
-                        String p = params[2];
-                        p = p.replaceAll("\\D+", "");
-                        int pp = Integer.parseInt(p);
-                        if (pp >= age) {
-                            System.out.println("Test");
-                            FileOutputStream fos = new FileOutputStream(sale, true);
-                            byte[] newTextBytes = par.getBytes();
-                            fos.write(newTextBytes);
-                            fos.close();
-                            System.out.println("Kitten successfully put up for sale.");
-                            //подумать над логикой выхода в меню (как вариант, использовать цикл).
-                        } else {
-                            System.out.println("Kitten less than 2 mounts.");
-                        }
-                        break;
-                    case "N":
-                        //Добавить логику выхода в меню
-                        System.out.println("Выход в меню");
-                        break;
-                    default:
-                        //Switch в цикл для повторной попытки ввести ответ
-                        System.out.print("Not found this command. Enter 'Y' or 'N'");
-                        break;
-                }
+                do {
+                    String confirm = scanner.next();
+                    switch (confirm) {
+                        case "Y":
+                            //Добавить проверку (по key) наличия котенка в списке продаж (избежание дублей).
+                            String p = params[2];
+                            p = p.replaceAll("\\D+", "");
+                            int pp = Integer.parseInt(p);
+                            if (pp >= age) {
+                                File sale = new File("SaleList.txt");
+                                FileOutputStream fos = new FileOutputStream(sale, true);
+                                byte[] newTextBytes = (par + "\n").getBytes();
+                                fos.write(newTextBytes);
+                                fos.close();
+                                System.out.println("Kitten successfully put up for sale. \n");
+                                notFound = false;
+                            } else {
+                                System.out.println("Kitten less than 2 mounts.");
+                            }
+                            break;
+                        case "N":
+                            System.out.println("Exit in the menu. \n");
+                            notFound = false;
+                            break;
+                        default:
+                            System.out.print("Not found this command. Enter 'Y' or 'N': \n");
+                            break;
+                    }
+                } while (notFound);
                 notFound = false;
                 break;
             }

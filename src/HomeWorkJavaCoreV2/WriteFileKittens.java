@@ -1,17 +1,16 @@
 package HomeWorkJavaCoreV2;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
 
-public class WriteFileKittens //implements Serializable
+ class WriteFileKittens
 {
-    Scanner scanner = new Scanner(System.in);
 
-    public WriteFileKittens() throws IOException {
+
+     WriteFileKittens() throws IOException {
+        Scanner scanner = new Scanner(System.in);
         File file = new File("KittensList.txt");
         boolean test = true;
         do {

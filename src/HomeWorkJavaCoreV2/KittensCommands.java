@@ -4,25 +4,25 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class KittensCommands extends Kittens {
-    Scanner scanner = new Scanner(System.in);
-    String textMessage = "List of available commands: \n" +
-            "-addKits - Add kittens \n" +
-            "-edit - To edit the parameters of kittens \n" +
-            "-listKits - List of kittens \n" +
-            "-addKitsInSale - Add kittens for sale \n" +
-            "-listSale - List of kittens for sale \n" +
-            "-sale - Sale of kittens \n" +
-            "-exit - Exit this program";
+class KittensCommands extends Kittens {
 
 
-    public KittensCommands() throws IOException, ClassNotFoundException {
+    KittensCommands() throws IOException {
 
         boolean test = true;
         do {
             System.out.println("Enter -help to see a list of available commands. \n" +
                     "Enter -exit to exit this program.");
+            Scanner scanner = new Scanner(System.in);
             String command1 = scanner.nextLine();
+            String textMessage = "List of available commands: \n" +
+                    "-addKits - Add kittens \n" +
+                    "-edit - To edit the parameters of kittens \n" +
+                    "-listKits - List of kittens \n" +
+                    "-addKitsInSale - Add kittens for sale \n" +
+                    "-listSale - List of kittens for sale \n" +
+                    "-sale - Sale of kittens \n" +
+                    "-exit - Exit this program";
             switch (command1) {
                 case "-help":
                     System.out.println(textMessage);
@@ -39,15 +39,16 @@ public class KittensCommands extends Kittens {
                                 System.out.println(textMessage);
                             case "-listKits":
                                 ReadFileKittens readFileKittens = new ReadFileKittens();
-                                System.out.println("\n \n" + textMessage);
+                                System.out.println("\n" + textMessage);
                                 break;
                             case "-addKitsInSale":
+                                //дописать проверку наличия котёнка в списке на продажу
                                 AddKittensForSale addKittensInSale = new AddKittensForSale();
                                 System.out.println(textMessage);
                                 break;
                             case "-listSale":
                                 ListOfKittensForSale listOfKittensForSale = new ListOfKittensForSale();
-                                System.out.println("\n \n" + textMessage);
+                                System.out.println("\n" + textMessage);
                                 break;
                             case "-sale":
                                 //написать логику продажи котят

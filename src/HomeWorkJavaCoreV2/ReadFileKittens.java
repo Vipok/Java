@@ -2,20 +2,17 @@ package HomeWorkJavaCoreV2;
 
 import java.io.*;
 
-public class ReadFileKittens {
-    File file = new File("KittensList.txt");
+class ReadFileKittens {
+
 
     ReadFileKittens() throws IOException {
+        File file = new File("KittensList.txt");
         System.out.println("List of kittens: ");
-        boolean test = true;
-        do {
-            FileInputStream stream = new FileInputStream(file);
-            int length = stream.available();
-            byte[] data = new byte[length];
-            stream.read(data);
-            String text = new String(data);
-            System.out.println(text);
-            test = false;
-        } while (test);
+        FileInputStream stream = new FileInputStream(file);
+        int length = stream.available();
+        byte[] data = new byte[length];
+        stream.read(data);
+        String text = new String(data);
+        System.out.println(text);
     }
 }
