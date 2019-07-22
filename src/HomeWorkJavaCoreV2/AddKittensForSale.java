@@ -12,17 +12,17 @@ class AddKittensForSale {
     private final static Integer age = 60;
 
     AddKittensForSale() throws IOException {
+        File file = new File("KittensList.txt");
+        File fileCheck = new File("SaleList.txt");
         Scanner scanner = new Scanner(System.in);
         Kittens kits = new Kittens();
         System.out.println("Enter the Id of the kitten you want to add for sale: ");
         kits.setId(scanner.nextLong());
-        File file = new File("KittensList.txt");
         FileInputStream stream = new FileInputStream(file);
         int length = stream.available();
         byte[] data = new byte[length];
         stream.read(data);
         String text = new String(data);
-
         ArrayList<String[]> kitten = new ArrayList<>();
         String[] lines = text.split("\n");
         for (String line : lines) {
@@ -39,20 +39,50 @@ class AddKittensForSale {
                     String confirm = scanner.next();
                     switch (confirm) {
                         case "Y":
-                            //Добавить проверку (по key) наличия котенка в списке продаж (избежание дублей).
                             String p = params[2];
                             p = p.replaceAll("\\D+", "");
-                            int pp = Integer.parseInt(p);
-                            if (pp >= age) {
-                                File sale = new File("SaleList.txt");
-                                FileOutputStream fos = new FileOutputStream(sale, true);
-                                byte[] newTextBytes = (par + "\n").getBytes();
-                                fos.write(newTextBytes);
-                                fos.close();
-                                System.out.println("Kitten successfully put up for sale. \n");
-                                notFound = false;
+                            long pp = Long.parseLong(p);
+                            FileInputStream streamCheck = new FileInputStream(fileCheck);
+                            int lengthCheck = streamCheck.available();
+                            byte[] dataCheck = new byte[lengthCheck];
+                            streamCheck.read(dataCheck);
+                            String textCheck = new String(dataCheck);
+                            ArrayList<String[]> kittenCheck = new ArrayList<>();
+                            String[] linesCheck = textCheck.split("\n");
+                            for (String lineCheck : linesCheck) {
+                                String[] paramsCheck = lineCheck.split(", ");
+                                kittenCheck.add(paramsCheck);
+                            }
+                            boolean b = false;
+                            long valueSale = 0;
+                            //add Kittens in sale list
+                            for (String[] paramsCheck : kittenCheck) {
+                                String pCheck = paramsCheck[0];
+                                pCheck = pCheck.replaceAll("\\D+", "");
+                                long ppCheck = Long.parseLong(pCheck);
+                                if (ppCheck == kits.getId()) {
+                                    System.out.println("This kitten already are in the list for sale");
+                                    valueSale = ppCheck;
+                                    notFound = false;
+                                } else {
+
+                                }
+                            }
+                            if (valueSale == 0) {
+                                if (pp >= age) {
+                                    File sale = new File("SaleList.txt");
+                                    FileOutputStream fos = new FileOutputStream(sale, true);
+                                    byte[] newTextBytes = (par + "\n").getBytes();
+                                    fos.write(newTextBytes);
+                                    fos.close();
+                                    System.out.println("Kitten successfully put up for sale. \n");
+                                    notFound = false;
+                                } else {
+                                    System.out.println("Kitten less than 2 mounts.");
+                                    notFound = false;
+                                }
                             } else {
-                                System.out.println("Kitten less than 2 mounts.");
+
                             }
                             break;
                         case "N":
@@ -68,11 +98,10 @@ class AddKittensForSale {
                 break;
             }
         }
+        stream.close();
         while (notFound) {
             System.out.println("No match found.");
             notFound = false;
         }
     }
-
 }
-

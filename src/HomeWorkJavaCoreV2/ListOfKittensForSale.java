@@ -15,5 +15,6 @@ class ListOfKittensForSale {
         stream.read(data);
         String text = new String(data);
         System.out.println(text);
+        stream.close();
     }
 }
