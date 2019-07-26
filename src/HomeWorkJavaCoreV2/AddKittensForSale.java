@@ -26,15 +26,16 @@ class AddKittensForSale {
         ArrayList<String[]> kitten = new ArrayList<>();
         String[] lines = text.split("\n");
         for (String line : lines) {
-            String[] params = line.split("; ");
+            String[] params = line.split(", ");
             kitten.add(params);
         }
         boolean notFound = true;
         for (String[] params : kitten) {
             if (params[0].equals("Id: " + kits.getId())) {
                 String par = Arrays.toString(params);
-                System.out.println(Arrays.toString(params));
-                System.out.println("Do you want to add this kitten to your list for sale? Y (yes) or N(no)");
+                par = par.replaceAll("^\\[|]$", "");
+                System.out.println(par);
+                System.out.println("Do you want to add this kitten to your list for sale? Y (yes) or N (no)");
                 do {
                     String confirm = scanner.next();
                     switch (confirm) {
@@ -49,23 +50,25 @@ class AddKittensForSale {
                             String textCheck = new String(dataCheck);
                             ArrayList<String[]> kittenCheck = new ArrayList<>();
                             String[] linesCheck = textCheck.split("\n");
+                            long valueSale = 0;
+                            String t = "t";
                             for (String lineCheck : linesCheck) {
                                 String[] paramsCheck = lineCheck.split(", ");
                                 kittenCheck.add(paramsCheck);
+                                t = paramsCheck[0];
                             }
-                            boolean b = false;
-                            long valueSale = 0;
-                            //add Kittens in sale list
-                            for (String[] paramsCheck : kittenCheck) {
-                                String pCheck = paramsCheck[0];
-                                pCheck = pCheck.replaceAll("\\D+", "");
-                                long ppCheck = Long.parseLong(pCheck);
-                                if (ppCheck == kits.getId()) {
-                                    System.out.println("This kitten already are in the list for sale");
-                                    valueSale = ppCheck;
-                                    notFound = false;
-                                } else {
-
+                            //проверка на то, что файл не пустой
+                            if (t.equals("")) {
+                            } else {
+                                for (String[] paramsCheck : kittenCheck) {
+                                    String pCheck = paramsCheck[0];
+                                    pCheck = pCheck.replaceAll("\\D+", "");
+                                    long ppCheck = Long.parseLong(pCheck);
+                                    if (ppCheck == kits.getId()) {
+                                        System.out.println("This kitten already are in the list for sale");
+                                        valueSale = ppCheck;
+                                        notFound = false;
+                                    }
                                 }
                             }
                             if (valueSale == 0) {
@@ -81,8 +84,6 @@ class AddKittensForSale {
                                     System.out.println("Kitten less than 2 mounts.");
                                     notFound = false;
                                 }
-                            } else {
-
                             }
                             break;
                         case "N":

@@ -1,3 +1,3 @@
-Id: 1563299721766; Nickname: Kitya; Age (days): 23; Growth: 42; Weight: 23; Color: Gray
-Id: 1563299739824; Nickname: Jack; Age (days): 5234; Growth: 454; Weight: 34; Color: Blye
-Id: 1563430315645; Nickname: Joe; Age (days): 71; Growth: 25; Weight: 4000; Color: Brown
+Id: 1564176194057, Nickname: Swan, Age (days): 244, Growth: 3412, Weight: 423, Color: Gray
+Id: 1564176222558, Nickname: Bob, Age (days): 12, Growth: 342, Weight: 34234, Color: Brown
+Id: 1564176734544, Nickname: Tertw, Age (days): 324, Growth: 3423, Weight: 3523, Color: Terte

@@ -42,7 +42,6 @@ class KittensCommands extends Kittens {
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-addKitsInSale":
-                                //дописать проверку наличия котёнка в списке на продажу
                                 AddKittensForSale addKittensInSale = new AddKittensForSale();
                                 System.out.println(textMessage);
                                 break;

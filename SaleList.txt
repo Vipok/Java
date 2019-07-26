@@ -1,2 +1,1 @@
-[Id: 1563430315645, Nickname: Joe, Age (days): 71, Growth: 25, Weight: 4000, Color: Brown]
-[Id: 1563299739824, Nickname: Jack, Age (days): 5234, Growth: 454, Weight: 34, Color: Blye]
+Id: 1564176734544, Nickname: Tertw, Age (days): 324, Growth: 3423, Weight: 3523, Color: Terte

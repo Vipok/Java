@@ -34,10 +34,10 @@ import java.util.Scanner;
                 switch (confirm) {
                     case "Y":
                         FileOutputStream fos = new FileOutputStream(file, true);
-                        String text = ("Id: " + kittens.getId() + "; Nickname: " + kittens.getNickname() +
-                                "; Age (days): " + kittens.getAge() +
-                                "; Growth: " + kittens.getGrowth() + "; Weight: " + kittens.getWeight() +
-                                "; Color: " + kittens.getColor() + "\n");
+                        String text = ("Id: " + kittens.getId() + ", Nickname: " + kittens.getNickname() +
+                                ", Age (days): " + kittens.getAge() +
+                                ", Growth: " + kittens.getGrowth() + ", Weight: " + kittens.getWeight() +
+                                ", Color: " + kittens.getColor() + "\n");
                         byte[] newTextBytes = text.getBytes();
                         fos.write(newTextBytes);
                         fos.close();
