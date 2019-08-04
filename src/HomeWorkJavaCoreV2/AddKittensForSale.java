@@ -35,7 +35,7 @@ class AddKittensForSale {
                 String par = Arrays.toString(params);
                 par = par.replaceAll("^\\[|]$", "");
                 System.out.println(par);
-                System.out.println("Do you want to add this kitten to your list for sale? Y (yes) or N (no)");
+                System.out.println("Do you want to add this kitten to your list for sale? Y (yes) or N (no):");
                 do {
                     String confirm = scanner.next();
                     switch (confirm) {
@@ -63,6 +63,7 @@ class AddKittensForSale {
                                 for (String[] paramsCheck : kittenCheck) {
                                     String pCheck = paramsCheck[0];
                                     pCheck = pCheck.replaceAll("\\D+", "");
+                                    //проверка на дубли
                                     long ppCheck = Long.parseLong(pCheck);
                                     if (ppCheck == kits.getId()) {
                                         System.out.println("This kitten already are in the list for sale");
@@ -72,6 +73,7 @@ class AddKittensForSale {
                                 }
                             }
                             if (valueSale == 0) {
+                                //проверка на то, что возраст больше 60
                                 if (pp >= age) {
                                     File sale = new File("SaleList.txt");
                                     FileOutputStream fos = new FileOutputStream(sale, true);

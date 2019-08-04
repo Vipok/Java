@@ -50,7 +50,6 @@ class KittensCommands extends Kittens {
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-sale":
-                                //написать логику продажи котят
                                 SaleForKittens saleForKittens = new SaleForKittens();
                                 System.out.println(textMessage);
                             case "-exit":

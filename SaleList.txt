@@ -1,1 +1,2 @@
 Id: 1564176734544, Nickname: Tertw, Age (days): 324, Growth: 3423, Weight: 3523, Color: Terte
+Id: 1564176194057, Nickname: Swan, Age (days): 244, Growth: 3412, Weight: 423, Color: Gray

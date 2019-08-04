@@ -1,4 +1,4 @@
-package HomeWorkJavaCoreV2;
+package HomeWorkJavaCore;
 
 import java.io.File;
 import java.io.FileInputStream;
