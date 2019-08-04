@@ -34,7 +34,6 @@ class KittensCommands extends Kittens {
                                 System.out.println(textMessage);
                                 break;
                             case "-edit":
-                                //написать логику редактирования параметров
                                 EditParameters editParameters = new EditParameters();
                                 System.out.println(textMessage);
                             case "-listKits":
