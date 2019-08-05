@@ -1,4 +1,3 @@
-Id: 1564176194057, Nickname: Swan, Age (days): 244, Growth: 3412, Weight: 423, Color: Gray
 Id: 1564176222558, Nickname: Bob, Age (days): 12, Growth: 342, Weight: 34234, Color: Brown
-Id: 1564176734544, Nickname: Bars, Age (days): 234, Growth: 232, Weight: 666, Color: GrayBash
-Id: 1564924760266, Nickname: Test, Age (days): 2342, Growth: 2423, Weight: 3243, Color: Barta
+Id: 1564176734544, Nickname: tywerr, Age (days): 345, Growth: 45345, Weight: 43545, Color: etewrte
+Id: 1564924760266, Nickname: yyiuy, Age (days): 6576, Growth: 67676, Weight: 667, Color: yuuyu

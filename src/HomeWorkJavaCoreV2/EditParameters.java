@@ -11,7 +11,7 @@ public class EditParameters {
         boolean test = true;
         File file = new File("KittensList.txt");
         File fileRecord = new File("Record.txt");
-        //File fileCheck = new File("SaleList.txt"); уточнить по поводу изменения параметров у котят, которые уже на продаже
+        File fileCheck = new File("SaleList.txt");
         Scanner scanner = new Scanner(System.in);
         Kittens kittens = new Kittens();
         System.out.println("Enter the ID of the kitten whose parameters you want to change: ");
@@ -58,11 +58,13 @@ public class EditParameters {
                     String confirms = scanner.next();
                     switch (confirms) {
                         case "Y":
+                            //редактирование параметров в общем списке
                             BufferedReader reader = new BufferedReader(new FileReader(file));
                             BufferedWriter writer = new BufferedWriter(new FileWriter(fileRecord));
                             for (String[] params : kitten) {
                                 if (!params[0].equals("Id: " + kittens.getId())) {
-                                    writer.write(Arrays.toString(params).replaceAll("^\\[|]$", ""));
+                                    writer.write(Arrays.toString(params).replaceAll("^\\[|]$", "") + "\n");
+                                }else {
                                 }
                             }
                             reader.close();
@@ -84,6 +86,44 @@ public class EditParameters {
                             byte[] newTextBytes = texts.getBytes();
                             fos.write(newTextBytes);
                             fos.close();
+                            //редактирование параметров в списке для котят
+                            if (kittens.getAge() >= 60){
+                                FileInputStream streamCheck = new FileInputStream(fileCheck);
+                                int lengthCheck = streamCheck.available();
+                                byte[] dataCheck = new byte[lengthCheck];
+                                streamCheck.read(dataCheck);
+                                String textCheck = new String(dataCheck);
+                                ArrayList<String[]> kittenCheck = new ArrayList<>();
+                                String[] linesCheck = textCheck.split("\n");
+                                for (String line : linesCheck) {
+                                    String[] paramsCheck = line.split(", ");
+                                    kittenCheck.add(paramsCheck);
+                                }
+                                BufferedReader readerSale = new BufferedReader(new FileReader(fileCheck));
+                                BufferedWriter writerSale = new BufferedWriter(new FileWriter(fileRecord));
+                                for (String[] paramsCheck : kittenCheck) {
+                                    if (!paramsCheck[0].equals("Id: " + kittens.getId())) {
+                                        writerSale.write(Arrays.toString(paramsCheck).replaceAll("^\\[|]$", ""));
+                                    }
+                                }
+                                readerSale.close();
+                                writerSale.close();
+                                BufferedReader readerSale1 = new BufferedReader(new FileReader(fileRecord));
+                                BufferedWriter writerSale1 = new BufferedWriter(new FileWriter(fileCheck));
+                                String lineParamsSale;
+                                while ((lineParamsSale = readerSale1.readLine()) != null) {
+                                    writerSale1.write(lineParamsSale);
+                                    writerSale1.newLine();
+                                }
+
+                                readerSale1.close();
+                                writerSale1.close();
+                                streamCheck.close();
+                                FileOutputStream fosSale = new FileOutputStream(fileCheck, true);
+                                byte[] newTextBytesSale = texts.getBytes();
+                                fosSale.write(newTextBytesSale);
+                                fosSale.close();
+                            }
                             test = false;
                             break;
                         case "N":
