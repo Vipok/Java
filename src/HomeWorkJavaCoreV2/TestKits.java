@@ -1,7 +1,7 @@
 package HomeWorkJavaCoreV2;
 
 import java.io.IOException;
-
+//тестовый класс
 public class TestKits {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         //KittensCommands kit = new KittensCommands(); //Done

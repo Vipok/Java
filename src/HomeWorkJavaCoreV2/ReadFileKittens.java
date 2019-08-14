@@ -1,7 +1,7 @@
 package HomeWorkJavaCoreV2;
 
 import java.io.*;
-
+//класс отображения общего списка котят
 class ReadFileKittens {
 
 

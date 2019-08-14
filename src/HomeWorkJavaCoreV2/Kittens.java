@@ -1,7 +1,7 @@
 package HomeWorkJavaCoreV2;
 
 import java.io.Serializable;
-
+//класс параметров котят
 public class Kittens implements Serializable {
     private Long id;//id котёнка
     private String nickname;//кличка

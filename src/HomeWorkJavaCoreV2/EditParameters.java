@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
+//класс редактирования параметров котят
 public class EditParameters {
 
     public EditParameters() throws IOException {

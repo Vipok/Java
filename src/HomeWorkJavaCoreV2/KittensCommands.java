@@ -3,7 +3,7 @@ package HomeWorkJavaCoreV2;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+//класс управления программой
 class KittensCommands extends Kittens {
 
 

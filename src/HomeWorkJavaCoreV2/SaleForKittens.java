@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
+//класс продажи котят
 public class SaleForKittens {
 
     public SaleForKittens() throws IOException {

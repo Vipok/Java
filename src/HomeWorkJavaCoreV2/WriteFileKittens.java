@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Date;
 import java.util.Scanner;
 
-
+//класс добавления котенка
  class WriteFileKittens
 {
 

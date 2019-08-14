@@ -3,7 +3,7 @@ package HomeWorkJavaCoreV2;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-
+//класс отображения списка котят на продаже
 class ListOfKittensForSale {
 
     ListOfKittensForSale() throws IOException {
