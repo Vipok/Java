@@ -44,6 +44,7 @@ import java.util.Scanner;
                         test = false;
                         break;
                     case "N":
+                        test = false;
                         break;
                     default:
                         System.out.println("Not found this command. Enter 'Y' or 'N'");

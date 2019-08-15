@@ -2,18 +2,22 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittens.java" line="6" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="Kak to tak">
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittensForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/EditParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Kittens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittensForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaLessons/ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ListOfKittensForSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ListOfKittensForSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectJava/HomeWorkJavaCoreV2/WriteFileKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectJava/HomeWorkJavaCoreV2/WriteFileKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,82 +35,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ListOfKittensForSale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittensForSale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/EditParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="104" selection-start-line="27" selection-start-column="104" selection-end-line="27" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittensForSale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,18 +132,29 @@
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensInSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Check.java" />
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" />
         <option value="$PROJECT_DIR$/Record.txt" />
         <option value="$PROJECT_DIR$/SaleList.txt" />
         <option value="$PROJECT_DIR$/KittensList.txt" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java" />
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ListOfKittensForSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java" />
+        <option value="$PROJECT_DIR$/src/JavaLessons/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittens.java" />
+        <option value="$PROJECT_DIR$/ListForSale" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittensForSale.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittensForSale.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/EditParameters.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Kittens.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittens.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/TestClass.java" />
+        <option value="$PROJECT_DIR$/ListOfKittens" />
+        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Sale.java" />
       </list>
     </option>
   </component>
@@ -184,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,21 +191,25 @@
             </path>
             <path>
               <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWorkJavaCoreV3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -237,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestKits">
-    <configuration name="ReadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serialization.ReadObject" />
+  <component name="RunManager" selected="Application.TestClass">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorkJavaCoreV3.TestClass" />
       <module name="ProjectJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Serialization.*" />
+          <option name="PATTERN" value="HomeWorkJavaCoreV3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.TestKits" />
         <item itemvalue="Application.TestKittens" />
         <item itemvalue="Application.WriteObject" />
         <item itemvalue="Application.Testt" />
-        <item itemvalue="Application.ReadObject" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +338,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4828125" visible="true" weight="0.23454158" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4828125" visible="true" weight="0.23987207" />
       <window_info id="Structure" order="1" sideWeight="0.5171875" side_tool="true" weight="0.21215352" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +347,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34127843" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3066089" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3217768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,76 +371,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Kak to tak" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkEnum/Mounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkEnum/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaLessons/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaLessons/ChoiceSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/people.bin" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989">
-          <caret line="1039" column="16" selection-start-line="1039" selection-start-column="16" selection-end-line="1039" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaLessons/TestOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -602,25 +523,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Record.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SaleList.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,6 +540,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -646,17 +557,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="535">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -673,6 +585,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLessons/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -680,20 +609,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="426">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Kittens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListForSale">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittensForSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/EditParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="104" selection-start-line="27" selection-start-column="104" selection-end-line="27" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittensForSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListOfKittens">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
