@@ -62,6 +62,7 @@ public class Kittens implements Serializable {
     }
 
     public Kittens(String nickname, Integer age, Integer growth, Integer weight, String color, Boolean sale) {
+        super();
         setNickname(nickname);
         setAge(age);
         setGrowth(growth);
@@ -70,8 +71,14 @@ public class Kittens implements Serializable {
         setSale(sale);
     }
 
-    Kittens() {
 
+    public static final long serialVersionUID = 1L;
+
+    @Override
+    public String toString() {
+        return ". Nickname: " + getNickname() + "; Age: " + getAge()
+                + "; Growth: " + getGrowth() + "; Weight: " + getWeight() +
+                "; Color: " + getColor() + "; Sale: " + getSale();
     }
 }
 
