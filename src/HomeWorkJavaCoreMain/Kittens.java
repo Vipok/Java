@@ -11,75 +11,78 @@ public class Kittens implements Serializable {
     private String color;//цвет
     private Boolean sale;//true - на продаже, false - не на продаже
 
-    //сеттеры
-    public String getNickname() {
-        return nickname;
+    static class Builder implements Serializable {
+        private Kittens newKittens;
+
+        public Builder() {
+            newKittens = new Kittens();
+        }
+
+        public Builder nickname(String nickname) {
+            newKittens.nickname = nickname;
+            return this;
+        }
+
+        public Builder age(Integer age) {
+            newKittens.age = age;
+            return this;
+        }
+
+        public Builder growth(Integer growth) {
+            newKittens.growth = growth;
+            return this;
+        }
+
+        public Builder weight(Integer weight) {
+            newKittens.weight = weight;
+            return this;
+        }
+
+        public Builder color(String color) {
+            newKittens.color = color;
+            return this;
+        }
+
+        public Builder sale(Boolean sale) {
+            newKittens.sale = sale;
+            return this;
+        }
+
+        public Kittens build() {
+            return newKittens;
+        }
+
+        String getNickname() {
+            return newKittens.nickname;
+        }
+
+        Integer getAge() {
+            return newKittens.age;
+        }
+
+        Integer getGrowth() {
+            return newKittens.growth;
+        }
+
+        Integer getWeight() {
+            return newKittens.weight;
+        }
+
+        String getColor() {
+            return newKittens.color;
+        }
+
+        Boolean getSale() {
+            return newKittens.sale;
+        }
     }
 
-    public Integer getAge() {
-        return age;
-    }
-
-    public Integer getGrowth() {
-        return growth;
-    }
-
-    public Integer getWeight() {
-        return weight;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public Boolean getSale() {
-        return sale;
-    }
-
-    //геттеры
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public void setGrowth(Integer growth) {
-        this.growth = growth;
-    }
-
-    public void setWeight(Integer weight) {
-        this.weight = weight;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public void setSale(Boolean sale) {
-        this.sale = sale;
-    }
-
-    public Kittens(String nickname, Integer age, Integer growth, Integer weight, String color, Boolean sale) {
-        super();
-        setNickname(nickname);
-        setAge(age);
-        setGrowth(growth);
-        setWeight(weight);
-        setColor(color);
-        setSale(sale);
-    }
-
-
-    public static final long serialVersionUID = 1L;
+    public static final long serialVersionUID = 2L;
 
     @Override
     public String toString() {
-        return ". Nickname: " + getNickname() + "; Age: " + getAge()
-                + "; Growth: " + getGrowth() + "; Weight: " + getWeight() +
-                "; Color: " + getColor() + "; Sale: " + getSale();
+        return ". Nickname: " + nickname + "; Age: " + age
+                + "; Growth: " + growth + "; Weight: " + weight +
+                "; Color: " + color + "; Sale: " + sale;
     }
 }
-
-
