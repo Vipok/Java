@@ -9,15 +9,9 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        MainClass m = new MainClass();
-        ArrayList<Kittens.Builder> kittensArrayList = new ArrayList<>();
+        ArrayList<Kittens> kittensArrayList = new ArrayList<>();
         boolean test = true;
-        try {
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("Kittens.txt"));
-            kittensArrayList = (ArrayList<Kittens.Builder>) ois.readObject();
-        } catch (Exception e) {
-            e.getMessage();
-        }
+        kittensArrayList = getBuilders(kittensArrayList);
         System.out.println();
         do {
             System.out.println("Enter -help to see a list of available commands. \n" +
@@ -40,27 +34,27 @@ public class MainClass {
                         String command2 = scanner.next();
                         switch (command2) {
                             case "-addKits":
-                                m.addKits(kittensArrayList);
+                                addKits(kittensArrayList);
                                 System.out.println(textMessage);
                                 break;
                             case "-edit":
-                                m.edit(kittensArrayList);
+                                edit(kittensArrayList);
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-listKits":
-                                m.listKits(kittensArrayList);
+                                listKits(kittensArrayList);
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-addKitsInSale":
-                                m.addKitsInSale(kittensArrayList);
+                                addKitsInSale(kittensArrayList);
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-listSale":
-                                m.listSale(kittensArrayList);
+                                listSale(kittensArrayList);
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-sale":
-                                m.sale(kittensArrayList);
+                                sale(kittensArrayList);
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-exit":
@@ -85,8 +79,19 @@ public class MainClass {
 
     //МЕТОДЫ
 
+    //Метод считывания объектов из файла
+    private static ArrayList<Kittens> getBuilders(ArrayList<Kittens> kittensArrayList) {
+        try {
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("Kittens.txt"));
+            kittensArrayList = (ArrayList<Kittens>) ois.readObject();
+        } catch (Exception e) {
+            System.out.println("Файл успешно создан.");
+        }
+        return kittensArrayList;
+    }
+
     //Метод добавления котенка
-    private void addKits(ArrayList<Kittens.Builder> kittens) {
+    private static void addKits(ArrayList<Kittens> kittens) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the nickname of the kitten: ");//кличка
         String nickname = sc.next();
@@ -105,22 +110,18 @@ public class MainClass {
                 .growth(growth)
                 .weight(weight)
                 .color(color)
-                .sale(sale));
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Kittens.txt"))) {
-            oos.writeObject(kittens);
-            System.out.println("Success \n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+                .sale(sale)
+                .build());
+        writeFile(kittens);
     }
 
     //Метод изменения параметров котенка
-    private void edit(ArrayList<Kittens.Builder> kittens) {
+    private static void edit(ArrayList<Kittens> kittens) {
         System.out.println("Enter the ID of the kitten whose parameters you want to change: ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int d = 0;
-        for (Kittens.Builder listOfKittens : kittens) {
+        for (Kittens listOfKittens : kittens) {
             if (d == number - 1) {
                 System.out.println("Nickname: " + listOfKittens.getNickname() + "; Age: " + listOfKittens.getAge()
                         + "; Growth: " + listOfKittens.getGrowth() + "; Weight: " + listOfKittens.getWeight() +
@@ -135,30 +136,30 @@ public class MainClass {
             case 1:
                 System.out.println("Enter a new nickname of the kitten: ");//кличка
                 String nickname = sc.next();
-                kittens.get(number - 1).nickname(nickname);
+                kittens.get(number - 1).setNickname(nickname);
                 break;
             case 2:
                 System.out.println("Enter a new age of the kitten: ");//возраст в днях
                 Integer age = sc.nextInt();
-                kittens.get(number - 1).age(age);
+                kittens.get(number - 1).setAge(age);
                 if (age < 60) {
-                    kittens.get(number - 1).sale(false);
+                    kittens.get(number - 1).setSale(false);
                 }
                 break;
             case 3:
                 System.out.println("Enter a new growth of the kitten: ");//рост в сантиметрах
                 Integer growth = sc.nextInt();
-                kittens.get(number - 1).growth(growth);
+                kittens.get(number - 1).setGrowth(growth);
                 break;
             case 4:
                 System.out.println("Enter a new weight of the kitten: ");//масса в граммах
                 Integer weight = sc.nextInt();
-                kittens.get(number - 1).weight(weight);
+                kittens.get(number - 1).setWeight(weight);
                 break;
             case 5:
                 System.out.println("Enter a new color of the kitten: ");//цвет
                 String color = sc.next();
-                kittens.get(number - 1).color(color);
+                kittens.get(number - 1).setColor(color);
                 break;
             default:
                 System.out.println("Not found this command. \n");
@@ -177,10 +178,10 @@ public class MainClass {
     }
 
     //Метод, возвращающий список котят
-    private void listKits(ArrayList<Kittens.Builder> kittens) {
+    private static void listKits(ArrayList<Kittens> kittens) {
         System.out.println("| ID | Nickname | Age | Growth | Weight | Color| Sale | \nList of kittens: \n");
         int i = 0;
-        for (Kittens.Builder k : kittens) {
+        for (Kittens k : kittens) {
             i++;
             if (k.getSale()) {
                 System.out.println(i + ". Nickname: " + k.getNickname() + "; Age: " + k.getAge() + "; Growth: " +
@@ -196,12 +197,12 @@ public class MainClass {
     }
 
     //Метод добавления котенка в список на продажу
-    private void addKitsInSale(ArrayList<Kittens.Builder> kittens) {
+    private static void addKitsInSale(ArrayList<Kittens> kittens) {
         System.out.println("Enter the Id of the kitten you want to add for sale: ");
         Scanner sc = new Scanner(System.in);
         int numberOfKitten = sc.nextInt();
         int g = 0;
-        for (Kittens.Builder listOfKittens : kittens) {
+        for (Kittens listOfKittens : kittens) {
             if (g == numberOfKitten - 1) {
                 System.out.println("Nickname: " + listOfKittens.getNickname() + "; Age: " + listOfKittens.getAge()
                         + "; Growth: " + listOfKittens.getGrowth() + "; Weight: " + listOfKittens.getWeight() +
@@ -215,14 +216,8 @@ public class MainClass {
             case "Y":
                 if (kittens.get(numberOfKitten - 1).getAge() >= 60 &
                         !kittens.get(numberOfKitten - 1).getSale()) {
-                    kittens.get(numberOfKitten - 1).sale(true);
-                    try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Kittens.txt"))) {
-                        oos.writeObject(kittens);
-                        oos.close();
-                        System.out.println("Success");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    kittens.get(numberOfKitten - 1).setSale(true);
+                    writeFile(kittens);
                 } else {
                     System.out.println("Kitten too young or already on sale! ");
                 }
@@ -236,10 +231,10 @@ public class MainClass {
     }
 
     //Метод, возвращающий список котят, которые находятся на продаже
-    private void listSale(ArrayList<Kittens.Builder> kittens) {
+    private static void listSale(ArrayList<Kittens> kittens) {
         System.out.println("List of kittens for sale:");
         int j = 0;
-        for (Kittens.Builder listOfKittens : kittens) {
+        for (Kittens listOfKittens : kittens) {
             if (listOfKittens.getSale()) {
                 j++;
                 System.out.println(j + ". Nickname: " + listOfKittens.getNickname() + "; Age: " + listOfKittens.getAge()
@@ -250,12 +245,12 @@ public class MainClass {
     }
 
     //Метод продажи котят
-    private void sale(ArrayList<Kittens.Builder> kittens) {
+    private static void sale(ArrayList<Kittens> kittens) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the ID of the kitten you want to sell: ");
         int numberOfKitten = sc.nextInt();
         int e = 0;
-        for (Kittens.Builder listOfKittens : kittens) {
+        for (Kittens listOfKittens : kittens) {
             if (e == numberOfKitten - 1) {
                 System.out.println("Nickname: " + listOfKittens.getNickname() + "; Age: " + listOfKittens.getAge()
                         + "; Growth: " + listOfKittens.getGrowth() + "; Weight: " + listOfKittens.getWeight() +
@@ -269,13 +264,7 @@ public class MainClass {
             case "Y":
                 if (kittens.get(numberOfKitten - 1).getSale()) {
                     kittens.remove(numberOfKitten - 1);
-                    try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Kittens.txt"))) {
-                        oos.writeObject(kittens);
-                        oos.close();
-                        System.out.println("Success");
-                    } catch (IOException ex) {
-                        ex.printStackTrace();
-                    }
+                    writeFile(kittens);
                 } else {
                     System.out.println("The kitten is not in the list for sale! \n");
                 }
@@ -285,6 +274,15 @@ public class MainClass {
                 break;
             default:
                 System.out.println("Not found this command. \nExit in menu.");
+        }
+    }
+
+    private static void writeFile(ArrayList<Kittens> kittens) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Kittens.txt"))) {
+            oos.writeObject(kittens);
+            System.out.println("Success \n");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

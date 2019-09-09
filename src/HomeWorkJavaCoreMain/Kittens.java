@@ -11,7 +11,7 @@ public class Kittens implements Serializable {
     private String color;//цвет
     private Boolean sale;//true - на продаже, false - не на продаже
 
-    static class Builder implements Serializable {
+     static class Builder implements Serializable {
         private Kittens newKittens;
 
         public Builder() {
@@ -51,30 +51,54 @@ public class Kittens implements Serializable {
         public Kittens build() {
             return newKittens;
         }
+    }
 
-        String getNickname() {
-            return newKittens.nickname;
-        }
+    String getNickname() {
+        return nickname;
+    }
 
-        Integer getAge() {
-            return newKittens.age;
-        }
+    Integer getAge() {
+        return age;
+    }
 
-        Integer getGrowth() {
-            return newKittens.growth;
-        }
+    Integer getGrowth() {
+        return growth;
+    }
 
-        Integer getWeight() {
-            return newKittens.weight;
-        }
+    Integer getWeight() {
+        return weight;
+    }
 
-        String getColor() {
-            return newKittens.color;
-        }
+    String getColor() {
+        return color;
+    }
 
-        Boolean getSale() {
-            return newKittens.sale;
-        }
+    Boolean getSale() {
+        return sale;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public void setGrowth(Integer growth) {
+        this.growth = growth;
+    }
+
+    public void setWeight(Integer weight) {
+        this.weight = weight;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setSale(Boolean sale) {
+        this.sale = sale;
     }
 
     public static final long serialVersionUID = 2L;
