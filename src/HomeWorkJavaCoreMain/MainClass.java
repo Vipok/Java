@@ -1,6 +1,5 @@
 package HomeWorkJavaCoreMain;
 
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +34,11 @@ public class MainClass {
                         String command2 = scanner.next();
                         switch (command2) {
                             case "-addKits":
-                                addKits();
+                                try {
+                                    addKits();
+                                } catch (DuplicatesException e) {
+                                    System.out.println(e.getMessage());
+                                }
                                 System.out.println(textMessage);
                                 break;
                             case "-edit":
@@ -47,7 +50,11 @@ public class MainClass {
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-addKitsInSale":
-                                addKitsInSale();
+                                try {
+                                    addKitsInSale();
+                                } catch (AgeException e) {
+                                    System.out.println(e.getMessage());
+                                }
                                 System.out.println("\n" + textMessage);
                                 break;
                             case "-listSale":
@@ -77,7 +84,6 @@ public class MainClass {
         System.out.println("Good bye!");
     }
 
-
     //МЕТОДЫ
 
     //Метод считывания объектов из файла
@@ -86,13 +92,13 @@ public class MainClass {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream("Kittens.txt"));
             kittensArrayList = (ArrayList<Kittens>) ois.readObject();
         } catch (Exception e) {
-            System.out.println("Файл успешно создан.");
+            System.out.println("The Kittens.txt file does not exist or is empty.");
         }
         return kittensArrayList;
     }
 
     //Метод добавления котенка
-    private static void addKits() {
+    private static void addKits() throws DuplicatesException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the nickname of the kitten: ");//кличка
         String nickname = sc.next();
@@ -105,15 +111,25 @@ public class MainClass {
         System.out.println("Enter the color of the kitten: ");//цвет
         String color = (sc.next());
         boolean sale = false;
-        kittensArrayList.add(new Kittens.Builder()
-                .nickname(nickname)
-                .age(age)
-                .growth(growth)
-                .weight(weight)
-                .color(color)
-                .sale(sale)
-                .build());
-        writeFile();
+        boolean param = true;
+        for (Kittens kittens : kittensArrayList) {
+            if (nickname.equals(kittens.getNickname()) & (age == kittens.getAge())) {
+                param = false;
+            }
+        }
+        if (param) {
+            kittensArrayList.add(new Kittens.Builder()
+                    .nickname(nickname)
+                    .age(age)
+                    .growth(growth)
+                    .weight(weight)
+                    .color(color)
+                    .sale(sale)
+                    .build());
+            writeFile();
+        } else {
+            throw new DuplicatesException("This kitten is already on the list!\n");
+        }
     }
 
     //Метод изменения параметров котенка
@@ -198,7 +214,7 @@ public class MainClass {
     }
 
     //Метод добавления котенка в список на продажу
-    private static void addKitsInSale() {
+    private static void addKitsInSale() throws AgeException {
         System.out.println("Enter the Id of the kitten you want to add for sale: ");
         Scanner sc = new Scanner(System.in);
         int numberOfKitten = sc.nextInt();
@@ -220,7 +236,7 @@ public class MainClass {
                     kittensArrayList.get(numberOfKitten - 1).setSale(true);
                     writeFile();
                 } else {
-                    System.out.println("Kitten too young or already on sale!");
+                    throw new AgeException("Kitten too young or already on sale!");
                 }
                 break;
             case "N":
