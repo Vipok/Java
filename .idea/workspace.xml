@@ -6,66 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="Kak to tak">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algoritmy/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/GenericArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/GenericLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/Animals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsAves.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsMammalia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AnimalsPisces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCondor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesCrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/AvesJakoParrot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaBlueWhale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaElephants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/MammaliaHumans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesAnglerfish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesPufferFish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkAnimals/PiscesSalpa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkEnum/Mounts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkEnum/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/AgeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/DuplicatesException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/Kittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/TechSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensForSale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/EditParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Kittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/KittensCommands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ListOfKittensForSale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/ReadFileKittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/SaleForKittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/TestKits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileKittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/AddKittensForSale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/EditParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Kittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/ListOfKittensForSale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/Sale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkJavaCoreV3/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkSort/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/ChoiceSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/LessonsFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/SortByEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/SortNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/TestOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/Testt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLessons/ThanosSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/Stock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serialization/ArrayListExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serialization/Deser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serialization/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Generics/ClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generics/ClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Generics/GenericArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="133">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="57">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,8 +67,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Generics/ClassExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/WriteFileSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/AddKittensInSale.java" />
         <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreV2/Check.java" />
         <option value="$PROJECT_DIR$/Record.txt" />
@@ -198,8 +156,9 @@
         <option value="$PROJECT_DIR$/ProjectJava.iml" />
         <option value="$PROJECT_DIR$/src/Generics/GenericArrayList.java" />
         <option value="$PROJECT_DIR$/src/Generics/ClassExample.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/ClassExample.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -221,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,7 +211,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +221,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -389,8 +348,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4828125" visible="true" weight="0.20895523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4828125" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" sideWeight="0.5171875" side_tool="true" weight="0.21215352" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +364,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30880713" />
@@ -733,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/List/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectJava.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -747,9 +700,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/List/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Generics/GenericArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="133">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -757,27 +717,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="57">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Generics/ClassExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@ public class GenericsLesson {
 
     //////////////// Java 7///////////////
 
-    List<String> animals3 = new ArrayList<>();
+    List<String> animals3 = new ArrayList<String>();
 
 }
 
