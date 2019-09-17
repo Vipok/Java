@@ -1,11 +1,15 @@
 package Generics;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class GenericArrayList {
     public static void main(String[] args) {
-        List<Object> arrayList = new ArrayList<>();
-
+        Object [] array = new Object[6];
+        array[0] = "String";
+        array[1] = 12;
+        array[2] = 32.1;
+        array[3] = true;
+        array[4] = 'a';
+        for (int i = 0; i < array.length - 1; i++){
+            System.out.println(array[i]);
+        }
     }
 }
