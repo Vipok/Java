@@ -1,7 +1,6 @@
 package List2;
 
 import java.util.Iterator;
-import java.util.function.Consumer;
 
 public class MyArrayList<T> implements ArrayListMethods<T> {
 
@@ -36,7 +35,7 @@ public class MyArrayList<T> implements ArrayListMethods<T> {
         //из-за даункаста оборачиваем в try-catch
         try {
             T[] tempArray = values;
-            values = (T[]) new Object[tempArray.length + 1];
+            values = (T[]) new Object[tempArray.length - 1];
             //копируем часть временного массива до индекса (не включительно)
             System.arraycopy(tempArray, 0, values, 0, index);
             //вычисляем остаток, сколько элементов осталось скопировать

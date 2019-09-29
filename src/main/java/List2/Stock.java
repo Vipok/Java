@@ -34,5 +34,12 @@ public class Stock {
         System.out.println(myArrayList.get(2));
         //размер массива (3)
         System.out.println("Array size: " + myArrayList.size());
+        //апдейт элемента
+        Products productsUpdate = new Products("Computer", 32);
+        myArrayList.update(2, productsUpdate);
+        //вернется новый объект
+        System.out.println(myArrayList.get(2));
+        //размер также равен трём
+        System.out.println("Array size: " + myArrayList.size());
     }
 }
