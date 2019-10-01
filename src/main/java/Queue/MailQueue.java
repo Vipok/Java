@@ -61,14 +61,13 @@ public class MailQueue<T> implements QueueInterface<T> {
         //в этом случае позиция равна нулю
         int pos = 0;
         //пока позиция не достигла нужного индекса
-        while (pos <= index) {
+        while (pos < index) {
             //перемещаемся на следующий элемент
             current = current.getNext();
             pos++;
         }
         //найден нужный элемент, возвращаем его.
-        T t = current.getT();
-        return t;
+        return current.getT();
     }
 
     @Override

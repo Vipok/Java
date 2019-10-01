@@ -20,5 +20,8 @@ public class Mail {
             System.out.println(s);
             System.out.println("Queue size: " + queue.size());
         }
+
+        queue.push(person3);
+        System.out.println(queue.get(0));
     }
 }
