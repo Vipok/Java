@@ -7,21 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,32 +43,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/List2/Products.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="44" selection-start-line="17" selection-start-column="15" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="-820">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2268#2269#0" expanded="true" />
+                <element signature="e#2295#2296#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Mail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Mail.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +148,6 @@
         <option value="$PROJECT_DIR$/src/main/java/List/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/List/Stock.java" />
         <option value="$PROJECT_DIR$/src/main/java/List/ArrayListClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/ArrayIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/ArrayListMethods.java" />
@@ -156,8 +158,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Queue/Mail.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Queue/Mail.java" />
       </list>
     </option>
   </component>
@@ -212,7 +216,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="List2" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Mail">
+  <component name="RunManager" selected="JUnit.FirstTest">
     <configuration name="Mail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.Mail" />
       <module name="ProjectJava" />
@@ -321,10 +325,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.firstTest" />
         <item itemvalue="Application.Mail" />
         <item itemvalue="Application.Stock (1)" />
-        <item itemvalue="JUnit.FirstTest.firstTest" />
-        <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="Application.Stock" />
       </list>
     </recent_temporary>
@@ -403,39 +407,53 @@
       <option name="project" value="LOCAL" />
       <updated>1569786475005</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Queue v. 1.0">
+      <created>1569959369118</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569959369119</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Queue v. 1.1">
+      <created>1569959723462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569959723462</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 38m 52s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 39m 34s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 39m 57s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 40m 52s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 45m 30s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 22h 51m 17s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.09.26 at 23h 01m 21s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 23h 04m 38s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_firstTest - 2019.09.26 at 23h 55m 03s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstTest_firstTest - 2019.09.27 at 00h 03m 57s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 13m 33s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 14m 20s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 20m 02s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 21m 21s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 22m 09s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 23m 29s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 24m 02s.xml">
+      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2019.10.01 at 23h 27m 14s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -451,7 +469,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48188406" visible="true" weight="0.35341153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48188406" visible="true" weight="0.35341153" />
       <window_info id="Structure" order="1" sideWeight="0.51811594" side_tool="true" visible="true" weight="0.35341153" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,13 +478,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3411371" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5932836" visible="true" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39910814" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5922175" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45895523" weight="0.18394649" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4067164" side_tool="true" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40778252" side_tool="true" visible="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -489,7 +507,9 @@
     <MESSAGE value="Selenium" />
     <MESSAGE value="List 2.0" />
     <MESSAGE value="List 3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="List 3.0" />
+    <MESSAGE value="Queue v. 1.0" />
+    <MESSAGE value="Queue v. 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue v. 1.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -704,33 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/List/Products.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -833,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -874,31 +860,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-820">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

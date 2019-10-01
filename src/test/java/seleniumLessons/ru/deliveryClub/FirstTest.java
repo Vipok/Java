@@ -16,12 +16,14 @@ public class FirstTest extends WebDriverSettings {
         String title = driver.getTitle();
         Assert.assertTrue(title.equals("«Delivery Club» — круглосуточная доставка из любимых ресторанов города"));
 
-        WebElement searchField = driver.findElement(By.cssSelector("Город, улица, дом"));
+        WebElement searchField = driver.findElement(By.xpath(".//*[@id = \"user-addr__input\"]"));
         searchField.clear();
         searchField.sendKeys("Рязань, Татарская улица, 31");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        WebElement searchButton = driver.findElement(By.cssSelector("user-addr__submit sbm-btn"));
+        WebElement searchButton = driver.findElement(By.xpath(".//*[text() = \"Найти рестораны\"]"));
         searchButton.click();
+        WebElement searchButton2 = driver.findElement(By.xpath(".//*[text() = \"Gusto\"]"));
+        searchButton2.click();
     }
 }
