@@ -5,26 +5,45 @@ import lombok.Setter;
 
 public class MailQueue<T> implements QueueInterface<T> {
     //указатель на первый элемент
-    private GenericMethods head = null;
+    private HelpClass head = null;
     //указатель на последний элемент
-    private GenericMethods tail = null;
+    private HelpClass tail = null;
     //размер очереди
     private int size = 0;
 
     @Override
     public void push(T t) {
-        //создаем вспомогательный объект, который мы сразу помещаем в него.
-        GenericMethods abstractObject = new GenericMethods();
-        abstractObject.setT(t);
+        //создаем вспомогательный объект, в который сразу помещаем новый элемент t
+        HelpClass helpClass = new HelpClass();
+        helpClass.setT(t);
         //если очередь пустая - в ней нет еще элементов.
         if (head == null) {
-            head = abstractObject;
+            head = helpClass;
             //теперь head указывает на первый элемент
         } else {
-            tail.setNext(abstractObject);
-            //в любом случае tail указываем на новый элемент, даже если он первый.
+            //если это не первый элемент, то последний элемент в очереди будет указывать на новый элемент
+            tail.setNext(helpClass);
         }
-        tail = abstractObject;
+        //в любом случае tail указываем на новый элемент, даже если он первый.
+        tail = helpClass;
+        //увеличиваем размер очереди.
+        size++;
+    }
+
+    @Override
+    public void pushPriority(T t) {
+        //создаем вспомогательный объект, который мы сразу помещаем в него.
+        HelpClass helpClass = new HelpClass();
+        helpClass.setT(t);
+        //если очередь пустая - в ней нет еще элементов.
+        if (head == null) {
+            tail = helpClass;
+            //теперь head указывает на первый элемент
+        } else {
+            //если head !=0, то вспомогательный объект будет указывать на бывшый первый объект
+            helpClass.setNext(head);
+        }
+        head = helpClass;
         //увеличиваем размер очереди.
         size++;
     }
@@ -57,7 +76,7 @@ public class MailQueue<T> implements QueueInterface<T> {
             return null;
         }
         //устанавливаем указатель, который будем перемещать на head
-        GenericMethods current = head;
+        HelpClass current = head;
         //в этом случае позиция равна нулю
         int pos = 0;
         //пока позиция не достигла нужного индекса
@@ -78,11 +97,11 @@ public class MailQueue<T> implements QueueInterface<T> {
     //вспомогательный класс, изолированный от остальных классов с помощью private
     @Getter
     @Setter
-    private class GenericMethods {
+    private class HelpClass {
         //поле для хранения объекта
         private T t;
         //поле для указания на следующий элемент в очереди
         //если оно равно null, то это последний элемент
-        private GenericMethods next;
+        private HelpClass next;
     }
 }

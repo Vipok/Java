@@ -3,13 +3,14 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreV2/WriteFileKittens.java" line="29" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreV3/ListOfKittens.java" line="6" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" line="66" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,24 +30,12 @@
     <favorites_list name="ProjectJava" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-820">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="418">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2268#2269#0" expanded="true" />
@@ -59,32 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Mail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -111,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/TechSpec.java" />
         <option value="$PROJECT_DIR$/person.dat" />
         <option value="$PROJECT_DIR$/src/Serialization/Program.java" />
         <option value="$PROJECT_DIR$/src/Serialization/Test.java" />
@@ -155,13 +119,14 @@
         <option value="$PROJECT_DIR$/src/main/java/List2/MyArrayList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/MyQueueInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Queue/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/Mail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Queue/MailQueue.java" />
       </list>
     </option>
   </component>
@@ -184,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +187,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
+  <component name="RunManager" selected="Application.Mail">
     <configuration name="Mail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.Mail" />
       <module name="ProjectJava" />
@@ -325,9 +290,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mail" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.firstTest" />
-        <item itemvalue="Application.Mail" />
         <item itemvalue="Application.Stock (1)" />
         <item itemvalue="Application.Stock" />
       </list>
@@ -421,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569959723462</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Selenium edit">
+      <created>1569962370191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569962370191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -469,8 +441,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48188406" visible="true" weight="0.35341153" />
-      <window_info id="Structure" order="1" sideWeight="0.51811594" side_tool="true" visible="true" weight="0.35341153" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.35714287" />
+      <window_info id="Structure" order="1" sideWeight="0.23913044" side_tool="true" weight="0.35714287" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -478,13 +450,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3411371" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5922175" visible="true" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39910814" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.59115136" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45895523" weight="0.18394649" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40778252" side_tool="true" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4088486" side_tool="true" visible="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -509,7 +481,8 @@
     <MESSAGE value="List 3.0" />
     <MESSAGE value="Queue v. 1.0" />
     <MESSAGE value="Queue v. 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue v. 1.1" />
+    <MESSAGE value="Selenium edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium edit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -526,13 +499,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreV2/AddKittensForSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreV2/ReadFileKittens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -697,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="203" column="71" selection-start-line="203" selection-start-column="56" selection-end-line="203" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GenericsLesson/TestGenerics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -805,20 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MyQueueInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="242" column="9" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MyQueueInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/List2/ArrayListMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -826,13 +769,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MyQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/List2/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -869,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="304">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -880,7 +817,34 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="221" column="17" selection-start-line="221" selection-start-column="9" selection-end-line="221" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="203" column="71" selection-start-line="203" selection-start-column="56" selection-end-line="203" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -890,14 +854,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="342">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -906,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/MailQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="418">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2268#2269#0" expanded="true" />
@@ -918,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Queue/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="190">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>

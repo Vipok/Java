@@ -12,4 +12,7 @@ public interface QueueInterface<T> {
 
     //возврат элементов по индексу (без возможности изменения).
     public T get(int index);
+
+    //прокинуть объект в начало очереди
+    public void pushPriority(T t);
 }
