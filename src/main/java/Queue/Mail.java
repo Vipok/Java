@@ -3,6 +3,7 @@ package Queue;
 public class Mail {
     private static MailQueue<Person> queue = new MailQueue();
     public static void main(String[] args) {
+
         Person person1 = new Person("Bob", 14);
         Person person2 = new Person("Jack", 42);
         Person person3 = new Person("Bill", 33);

@@ -15,4 +15,7 @@ public interface QueueInterface<T> {
 
     //прокинуть объект в начало очереди
     public void pushPriority(T t);
+
+    //проверка наполненности очереди
+    boolean checkQueue();
 }
