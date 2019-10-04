@@ -1,6 +1,6 @@
 package JavaLessons;
 
-public class ArrayList {
+class ArrayList {
     public static void main(String[] args) {
 
     }
