@@ -3,7 +3,9 @@ package Map;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private int size;
     private int id = size + 1;
     @Setter
