@@ -5,23 +5,21 @@ import lombok.Setter;
 
 import java.io.Serializable;
 
+@Getter
+@Setter
 public class Person implements Serializable {
-    private int size;
-    private int id = size + 1;
-    @Setter
-    @Getter
     private String login;
-    @Setter
-    @Getter
     private String password;
+    private String updatedDate;
 
-    Person(String login, String password) {
+    Person(String login, String password, String updatedDate) {
         this.login = login;
         this.password = password;
+        this.updatedDate = updatedDate;
     }
 
-    public String toString() {
-        return "{\n\"login\": " + login + ",\n\"password\": " + password + "\n}";
+    Person(){
+
     }
 }
 

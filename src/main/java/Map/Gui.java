@@ -1,33 +1,33 @@
 package Map;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Gui extends Methods {
     private static boolean trigger = true;
     private static Scanner scanner = new Scanner(System.in);
-    private static Methods methods = new Methods();
+    static Methods methods = new Methods();
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) throws IOException {
         //считать данные из файла.
-        serializableJson();
+        methods.serializableJson();
+        System.out.println("Привет, Лёха! Тестируй меня полностью!");
         do {
-            System.out.println("Привет, Лёха. Тестируй меня!\nВыберите режим работы:\n"
-                    + "1. Войти под существующей учетной записью.\n"
-                    + "2. Зарегистрироватьть новую учетную запись.\n"
-                    + "3. Демо-режим.\n"
+            System.out.println("Выберите режим работы:\n"
+                    + "1. Зарегистрироватьть новую учетную запись.\n"
+                    + "2. Войти под существующей учетной записью.\n"
                     + "0. Выход из программы.");
             switch (scanner.nextInt()) {
                 case 1:
                     //метод входа с уже существующей учетной записи.
-                    methods.signIn();
+                    methods.createNewAccount();
+                    methods.personMenu();
                     break;
                 case 2:
                     //метод регистрации нового профиля.
-                    break;
-                case 3:
-                    //метод включения деморежима.
+                    methods.signIn();
+                    methods.personMenu();
                     break;
                 case 0:
                     trigger = false;
