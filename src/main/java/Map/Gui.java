@@ -11,7 +11,7 @@ public class Gui extends Methods {
 
     public static void main(String[] args) throws IOException {
         //считать данные из файла.
-        methods.serializableJson();
+        methods.deserializableJson();
         System.out.println("Привет, Лёха! Тестируй меня полностью!");
         do {
             System.out.println("Выберите режим работы:\n"
@@ -35,6 +35,6 @@ public class Gui extends Methods {
                     break;
             }
         } while (trigger);
-        methods.deserializableJson();
+        methods.serializableJson();
     }
 }

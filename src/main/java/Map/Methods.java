@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Methods extends JsonPath {
+class Methods extends JsonPath {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static Scanner scanner = new Scanner(System.in);
     private static Person person = new Person();
@@ -20,7 +20,7 @@ public class Methods extends JsonPath {
     private ArrayPerson arrayPerson = new ArrayPerson();
 
     //вход с уже существующей записи
-    public void signIn() {
+    void signIn() {
         System.out.println("Введите логин: ");
         String singInLogin = scanner.next();
         System.out.println("Введите пароль: ");
@@ -43,7 +43,7 @@ public class Methods extends JsonPath {
     }
 
     //создание новой записи
-    public void createNewAccount() {
+    void createNewAccount() {
         System.out.println("Введите логин: ");
         person.setLogin(scanner.next());
         System.out.println("Введите пароль: ");
@@ -61,8 +61,8 @@ public class Methods extends JsonPath {
         }
     }
 
-    //метод сериализации
-    public void serializableJson() throws IOException {
+    //метод десериализации
+    void deserializableJson() throws IOException {
         try {
             FileReader fileReader = new FileReader("Person.json");
             JsonReader jsonReader = new JsonReader(fileReader);
@@ -70,15 +70,15 @@ public class Methods extends JsonPath {
             arrayPerson = GSON.fromJson(jsonReader, type);
             jsonReader.close();
             fileReader.close();
-        }catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             File file = new File("Person.json");
             file.createNewFile();
             System.out.println("Файл успешно создан.");
         }
     }
 
-    //метод десериализации
-    public void deserializableJson() throws IOException {
+    //метод сериализации
+    void serializableJson() throws IOException {
         try {
             FileWriter fileWriter = new FileWriter("Person.json");
             JsonWriter jsonWriter = new JsonWriter(fileWriter);
@@ -96,23 +96,97 @@ public class Methods extends JsonPath {
     }
 
     //метод вывода списка зарегистрированных пользователей (+ общее количество)
-    public void listPerson() {
+    private void listPerson() {
         json = GSON.toJson(arrayPerson);
         System.out.println(json);
         System.out.println("Количество зарегистрированных пользователей: " + arrayPerson.getList().size() + "\n");
     }
 
     //метод изменения параметров пользователя
-    public void editPerson() {
+    private void editPerson() {
+        System.out.println("Введите номер пользователя, параметры которого нужно изменить:");
+        int index = scanner.nextInt();
+        if (index <= arrayPerson.getList().size() & index > 0) {
+            System.out.println("Вы уверены, что хотите изменить параметры этого пользователя? (Y/N)\n"
+                    + GSON.toJson(arrayPerson.getList().get(index - 1)));
+        }
+        if (scanner.next().equals("Y")) {
+            editParamsPerson(index);
+        } else if (scanner.next().equals("N")) {
+            System.out.println("Выход в главное меню.\n");
+        } else {
+            System.out.println("Введен некорректный символ отмены.\n");
+        }
+    }
+
+    //логика выбора параметра пользователя, который требуется изменить
+    private void editParamsPerson(int index) {
+        System.out.println("Выберете параметр, который хотите изменить:\n"
+                + "1. Логин.\n2. Пароль.\n0. Отмена.");
+        int answer = scanner.nextInt();
+        if (answer == 1) {
+            editLogin(index);
+        } else if (answer == 2) {
+            editPassword(index);
+        } else if (answer == 0) {
+            System.out.println("Выход в главное меню.\n");
+        } else {
+            System.out.println("Введен некорректный символ отмены.\n");
+        }
+    }
+
+    //логика изменения логина
+    private void editLogin(int index) {
+        System.out.println("Введите новый оригинальный логин:");
+        String newLogin = scanner.next();
+        boolean check = true;
         for (int i = 0; i < arrayPerson.getList().size(); i++) {
-            json = GSON.toJson(arrayPerson.getList().get(i));
-            System.out.println(json);
+            if (arrayPerson.getList().get(i).getLogin().equals(newLogin)) {
+                check = false;
+            }
+        }
+        if (check) {
+            arrayPerson.getList().get(index - 1).setLogin(newLogin);
+            arrayPerson.getList().get(index - 1).setUpdatedDate(getSysdate());
+            System.out.println("Логин успешно изменен.");
+        } else {
+            System.out.println("Данный логин уже занят. Повторите шаги и в следующий раз введите оригинальный логин.");
+        }
+    }
+
+    //логика изменения пароля
+    private void editPassword(int index) {
+        System.out.println("Введите новый пароль, отличный от старого:");
+        String newPassword = scanner.next();
+        if (!arrayPerson.getList().get(index - 1).getPassword().equals(newPassword)) {
+            arrayPerson.getList().get(index - 1).setPassword(newPassword);
+            arrayPerson.getList().get(index - 1).setUpdatedDate(getSysdate());
+            System.out.println("Пароль успешно изменен.");
+        } else {
+            System.out.println("Новый пароль соответствует старому. Повторите шаги и в следующий раз введите "
+                    + "оригинальный пароль.");
         }
     }
 
     //метод удаления пользователя
-    public void deletePerson() {
-
+    private void deletePerson() {
+        System.out.println("Введите номер пользователя, которого нужно удалить: ");
+        int index = scanner.nextInt();
+        if (index <= arrayPerson.getList().size() & index > 0) {
+            System.out.println("Вы уверены, что хотите удалть этого пользователя? (Y/N)\n"
+                    + GSON.toJson(arrayPerson.getList().get(index - 1)));
+            if (scanner.next().equals("Y")) {
+                arrayPerson.getList().remove(index - 1);
+                System.out.println("Удаление успешно выполнено.\n");
+            } else if (scanner.next().equals("N")) {
+                System.out.println("Выход в главное меню.\n");
+            } else {
+                System.out.println("Введен некорректный символ отмены.\n");
+            }
+        } else {
+            System.out.println("Указан некоррктный номер пользователя: либо больше 0, либо такого пользователя не "
+                    + "существует.");
+        }
     }
 
     //метод возврата текущей даты
@@ -124,21 +198,26 @@ public class Methods extends JsonPath {
     }
 
     //метод управления функциями залогиненного пользователя.
-    public void personMenu() {
-        System.out.println("Основные функции: \n1. Список всех пользователей. \n2. Редактировать параметры пользователя. \n"
-                + "3. Удалить пользователя. \n0. Выход в главное меню.");
-        switch (scanner.nextInt()) {
-            case 1:
-                listPerson();
-                break;
-            case 2:
-                editPerson();
-                break;
-            case 3:
-                deletePerson();
-                break;
-            case 0:
-                break;
-        }
+    void personMenu() {
+        boolean trigger = true;
+        do {
+            System.out.println("Основные функции: \n1. Список всех пользователей. \n2. Редактировать параметры пользователя. \n"
+                    + "3. Удалить пользователя. \n0. Выход в главное меню.");
+            switch (scanner.nextInt()) {
+                case 1:
+                    listPerson();
+                    break;
+                case 2:
+                    editPerson();
+                    break;
+                case 3:
+                    deletePerson();
+                    break;
+                case 0:
+                    trigger = false;
+                    break;
+            }
+        } while (trigger);
+
     }
 }
