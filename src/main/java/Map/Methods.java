@@ -16,20 +16,19 @@ class Methods extends JsonPath {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static Scanner scanner = new Scanner(System.in);
     private static Person person = new Person();
-    private static String json;
     private ArrayPerson arrayPerson = new ArrayPerson();
 
     //вход с уже существующей записи
     void signIn() {
         System.out.println("Введите логин: ");
-        String singInLogin = scanner.next();
+        String signInLogin = scanner.next();
         System.out.println("Введите пароль: ");
-        String singInPassword = scanner.next();
+        String signInPassword = scanner.next();
         boolean trigger = false;
         for (int i = 0; i < arrayPerson.getList().size(); i++) {
-            if (arrayPerson.getList().get(i).getLogin().equals(singInLogin)) {
-                if (arrayPerson.getList().get(i).getPassword().equals(singInPassword)) {
-                    System.out.println("Добро пожаловать, мистер " + singInLogin + "!");
+            if (arrayPerson.getList().get(i).getLogin().equals(signInLogin)) {
+                if (arrayPerson.getList().get(i).getPassword().equals(signInPassword)) {
+                    System.out.println("Добро пожаловать, мистер " + signInLogin + "!");
                 } else {
                     System.out.println("Вы ввели неверный пароль! Зарегистрируйте новый аккаунт или повторите попытку.");
                 }
@@ -97,7 +96,7 @@ class Methods extends JsonPath {
 
     //метод вывода списка зарегистрированных пользователей (+ общее количество)
     private void listPerson() {
-        json = GSON.toJson(arrayPerson);
+        String json = GSON.toJson(arrayPerson);
         System.out.println(json);
         System.out.println("Количество зарегистрированных пользователей: " + arrayPerson.getList().size() + "\n");
     }
