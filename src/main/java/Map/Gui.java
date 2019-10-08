@@ -4,10 +4,10 @@ package Map;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Gui extends Methods {
+public class Gui {
     private static boolean trigger = true;
     private static Scanner scanner = new Scanner(System.in);
-    static Methods methods = new Methods();
+    private static Methods methods = new Methods();
 
     public static void main(String[] args) throws IOException {
         //считать данные из файла.
