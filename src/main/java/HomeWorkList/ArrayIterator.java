@@ -1,4 +1,4 @@
-package List2;
+package HomeWorkList;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

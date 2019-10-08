@@ -1,4 +1,4 @@
-package List2;
+package HomeWorkList;
 
 //интерфейс с методами для ArrayList'a
 public interface ArrayListMethods<T> extends Iterable<T> {

@@ -1,4 +1,4 @@
-package Queue;
+package HomeWorkQueue;
 
 import lombok.Getter;
 import lombok.Setter;

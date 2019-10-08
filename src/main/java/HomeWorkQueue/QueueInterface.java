@@ -1,4 +1,4 @@
-package Queue;
+package HomeWorkQueue;
 
 public interface QueueInterface<T> {
     //положить объект в очередь

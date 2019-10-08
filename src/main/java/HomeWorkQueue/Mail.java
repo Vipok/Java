@@ -1,4 +1,4 @@
-package Queue;
+package HomeWorkQueue;
 
 public class Mail {
     private static MailQueue<Person> queue = new MailQueue();

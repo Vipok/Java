@@ -1,4 +1,4 @@
-package GenericsLesson;
+package HomeWorkGenerics;
 
 
 import lombok.Getter;

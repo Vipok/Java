@@ -1,6 +1,7 @@
-package List;
+package HomeWorkList;
 
 import lombok.Getter;
+
 //класс с параметрами
 @Getter
 class Products {
@@ -13,7 +14,7 @@ class Products {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Name of item: " + getNameOfProduct()
                 + "; Count: " + getCounts();
     }
