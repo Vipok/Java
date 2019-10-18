@@ -1,4 +1,4 @@
-package Map;
+package HomeWorkMap;
 
 public class TechSpec {
     /*

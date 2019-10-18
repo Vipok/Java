@@ -7,10 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/GenericsLesson/Generic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenericsLesson/TestGenerics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkSort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkSort/ShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/Stock.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myDeliveryClub/Pokushac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/ArrayPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/TechSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/TechSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myDeliveryClub/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myDeliveryClub/WebDriverSettings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,80 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Map/ArrayPerson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmy/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Map/JsonPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Map/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Map/Methods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2432">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Person.json">
+        <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/Pokushac.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="137" selection-start-column="137" selection-end-column="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Map/Gui.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -124,6 +62,7 @@
       <find>FileOutputStream</find>
       <find>append</find>
       <find>`</find>
+      <find>json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,15 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/DuplicatesException.java" />
-        <option value="$PROJECT_DIR$/src/HomeWorkJavaCoreMain/MainClass.java" />
-        <option value="$PROJECT_DIR$/Kittens.txt" />
-        <option value="$PROJECT_DIR$/src/Generics/Generics.java" />
-        <option value="$PROJECT_DIR$/src/Generics/GenericLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/List/Stock.java" />
-        <option value="$PROJECT_DIR$/src/JavaLessons/GenericsLesson.java" />
-        <option value="$PROJECT_DIR$/ProjectJava.iml" />
-        <option value="$PROJECT_DIR$/src/Generics/GenericArrayList.java" />
         <option value="$PROJECT_DIR$/src/Generics/ClassExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaLessons/GenericsLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/Generics/ClassExample.java" />
@@ -163,8 +93,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Queue/MyQueueInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/ArrayListMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/Queue/QueueInterface.java" />
@@ -179,10 +107,21 @@
         <option value="$PROJECT_DIR$/src/main/java/Map/MainMap.java" />
         <option value="$PROJECT_DIR$/Person.json" />
         <option value="$PROJECT_DIR$/src/main/java/Map/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Map/Methods.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Map/JsonPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/Map/Gui.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Map/Methods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/JapaneseMom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/Pokushac.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myDeliveryClub/Pokushac.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myDeliveryClub/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java" />
       </list>
     </option>
   </component>
@@ -206,7 +145,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,13 +167,28 @@
               <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myDeliveryClub" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,13 +219,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Gui">
+  <component name="RunManager" selected="Application.Pokushac">
     <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Gui" />
+      <option name="MAIN_CLASS_NAME" value="HomeWorkMap.Gui" />
       <module name="ProjectJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="HomeWorkMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorkQueue.Mail" />
+    <configuration name="Pokushac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myDeliveryClub.Pokushac" />
       <module name="ProjectJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWorkQueue.*" />
+          <option name="PATTERN" value="myDeliveryClub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,33 +246,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.MainMap" />
-      <module name="ProjectJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Person" />
-      <module name="ProjectJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JapaneseMom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectJava" />
       <extension name="coverage">
         <pattern>
@@ -328,19 +255,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumLessons.ru.deliveryClub" />
-      <option name="MAIN_CLASS_NAME" value="seleniumLessons.ru.deliveryClub.FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="seleniumLessons.ru.deliveryClub.JapaneseMom" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JapaneseMom.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumLessons.ru.deliveryClub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumLessons.ru.deliveryClub" />
+      <option name="MAIN_CLASS_NAME" value="seleniumLessons.ru.deliveryClub.JapaneseMom" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pokushac.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myDeliveryClub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myDeliveryClub" />
+      <option name="MAIN_CLASS_NAME" value="myDeliveryClub.Pokushac" />
+      <option name="METHOD_NAME" value="execute" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pokushac" />
+        <item itemvalue="JUnit.Pokushac.execute" />
+        <item itemvalue="JUnit.JapaneseMom.firstTest" />
+        <item itemvalue="JUnit.JapaneseMom" />
         <item itemvalue="Application.Gui" />
-        <item itemvalue="Application.MainMap" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Mail" />
-        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -502,39 +461,46 @@
       <option name="project" value="LOCAL" />
       <updated>1570569945029</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Map 1.11">
+      <created>1570570662585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570570662585</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_firstTest - 2019.09.26 at 23h 55m 03s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 05m 25s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.09.27 at 00h 03m 57s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 06m 22s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 13m 33s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 07m 18s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 14m 20s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 07m 47s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 20m 02s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 08m 30s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 21m 21s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 09m 14s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 22m 09s.xml">
+    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 10m 30s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 23m 29s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    <history-entry file="Pokushac_execute - 2019.10.17 at 22h 16m 16s.xml">
+      <configuration name="Pokushac.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_firstTest - 2019.10.01 at 23h 24m 02s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
+    <history-entry file="Pokushac_execute - 2019.10.17 at 22h 17m 00s.xml">
+      <configuration name="Pokushac.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2019.10.01 at 23h 27m 14s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="Pokushac_execute - 2019.10.17 at 22h 17m 13s.xml">
+      <configuration name="Pokushac.execute" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -548,8 +514,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.23614073" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" sideWeight="0.23913044" side_tool="true" weight="0.35714287" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,14 +524,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3411371" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5842217" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.39910814" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3411371" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58208954" visible="true" weight="0.30100334" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32887402" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45842218" weight="0.18394649" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41577825" side_tool="true" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41791046" side_tool="true" visible="true" weight="0.30100334" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49573562" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -599,7 +566,8 @@
     <MESSAGE value="Map 1.0" />
     <MESSAGE value="Map 1.01" />
     <MESSAGE value="Map 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map 1.1" />
+    <MESSAGE value="Map 1.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map 1.11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -616,37 +584,8 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/List/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/List/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/List/ArrayListClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/List/Stock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/List/ArrayListClass.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkList/ArrayIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -689,33 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,7 +728,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Person.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/TechSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/TechSpec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -827,13 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -852,16 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/ArrayPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,50 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmy/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/JsonPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/Gui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2432">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1026">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -958,6 +813,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="137" selection-start-column="137" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmy/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/JsonPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/TechSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1577">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/Pokushac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

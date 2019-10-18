@@ -1,4 +1,4 @@
-package Map;
+package HomeWorkMap;
 
 
 import java.io.IOException;

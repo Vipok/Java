@@ -1,4 +1,4 @@
-package Map;
+package HomeWorkMap;
 
 import com.google.gson.reflect.TypeToken;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package Map;
+package HomeWorkMap;
 
 
 import com.google.gson.Gson;
@@ -9,14 +9,19 @@ import com.google.gson.stream.JsonWriter;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
+import java.util.Collection;
 import java.util.Date;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 class Methods extends JsonPath {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static Scanner scanner = new Scanner(System.in);
-    private static Person person = new Person();
+    private static ArrayPerson.Person person = new ArrayPerson.Person();
     private ArrayPerson arrayPerson = new ArrayPerson();
+    private Collection<ArrayPerson.Person>collection = arrayPerson.getList();
+    Stream<ArrayPerson.Person> streamArrayPerson = collection.stream();
+
 
     //вход с уже существующей записи
     void signIn() {
@@ -51,7 +56,7 @@ class Methods extends JsonPath {
                 + "Если согласны, нажмите 1. Если нет - 0.");
         int i = scanner.nextInt();
         if (i == 1) {
-            arrayPerson.getList().add(new Person(person.getLogin(), person.getPassword(), getSysdate()));
+            arrayPerson.getList().add(new ArrayPerson.Person(person.getLogin(), person.getPassword(), getSysdate()));
             System.out.println("Рады пополнению наших рядов, мистер " + person.getLogin() + "!");
         } else if (scanner.nextInt() == 0) {
             System.out.print("Отмена операции.");
