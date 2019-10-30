@@ -9,7 +9,6 @@ import com.google.gson.stream.JsonWriter;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
-import java.util.Collection;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -19,8 +18,6 @@ class Methods extends JsonPath {
     private static Scanner scanner = new Scanner(System.in);
     private static ArrayPerson.Person person = new ArrayPerson.Person();
     private ArrayPerson arrayPerson = new ArrayPerson();
-    private Collection<ArrayPerson.Person>collection = arrayPerson.getList();
-    Stream<ArrayPerson.Person> streamArrayPerson = collection.stream();
 
 
     //вход с уже существующей записи
@@ -144,11 +141,19 @@ class Methods extends JsonPath {
         System.out.println("Введите новый оригинальный логин:");
         String newLogin = scanner.next();
         boolean check = true;
-        for (int i = 0; i < arrayPerson.getList().size(); i++) {
-            if (arrayPerson.getList().get(i).getLogin().equals(newLogin)) {
-                check = false;
-            }
+        //тестовое изменение
+        Stream <ArrayPerson.Person>streams = arrayPerson.getList().stream();
+        long countDouble = streams.filter(x -> !x.getLogin().equals(newLogin)).count();
+        if (countDouble != 0){
+               check = false;
         }
+
+//        for (int i = 0; i < arrayPerson.getList().size(); i++) {
+//            if (arrayPerson.getList().get(i).getLogin().equals(newLogin)) {
+//                check = false;
+//            }
+//        }
+
         if (check) {
             arrayPerson.getList().get(index - 1).setLogin(newLogin);
             arrayPerson.getList().get(index - 1).setUpdatedDate(getSysdate());
@@ -222,6 +227,5 @@ class Methods extends JsonPath {
                     break;
             }
         } while (trigger);
-
     }
 }

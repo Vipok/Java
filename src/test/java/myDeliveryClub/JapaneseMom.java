@@ -20,7 +20,6 @@ public class JapaneseMom extends WebDriverSettings {
         WebElement searchField = driver.findElement(By.xpath(".//*[@id = \"user-addr__input\"]"));
         searchField.clear();
         searchField.sendKeys("Рязань, Татарская улица, 31");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         WebElement searchButton = driver.findElement(By.xpath(".//*[text() = \"Найти рестораны\"]"));
         searchButton.click();
