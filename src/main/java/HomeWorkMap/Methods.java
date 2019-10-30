@@ -142,10 +142,10 @@ class Methods extends JsonPath {
         String newLogin = scanner.next();
         boolean check = true;
         //тестовое изменение
-        Stream <ArrayPerson.Person>streams = arrayPerson.getList().stream();
+        Stream<ArrayPerson.Person> streams = arrayPerson.getList().stream();
         long countDouble = streams.filter(x -> !x.getLogin().equals(newLogin)).count();
-        if (countDouble != 0){
-               check = false;
+        if (countDouble != 0) {
+            check = false;
         }
 
 //        for (int i = 0; i < arrayPerson.getList().size(); i++) {
