@@ -21,13 +21,15 @@ public class Gui {
             switch (scanner.nextInt()) {
                 case 1:
                     //метод входа с уже существующей учетной записи.
-                    methods.createNewAccount();
-                    methods.personMenu();
+                    if (methods.createNewAccount()){
+                        methods.personMenu();
+                    }
                     break;
                 case 2:
                     //метод регистрации нового профиля.
-                    methods.signIn();
-                    methods.personMenu();
+                    if (methods.signIn()){
+                        methods.personMenu();
+                    }
                     break;
                 case 0:
                     trigger = false;

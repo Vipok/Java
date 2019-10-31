@@ -11,7 +11,6 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 class Methods extends JsonPath {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
@@ -21,30 +20,25 @@ class Methods extends JsonPath {
 
 
     //вход с уже существующей записи
-    void signIn() {
+    boolean signIn() {
         System.out.println("Введите логин: ");
         String signInLogin = scanner.next();
         System.out.println("Введите пароль: ");
         String signInPassword = scanner.next();
-        boolean trigger = false;
-        for (int i = 0; i < arrayPerson.getList().size(); i++) {
-            if (arrayPerson.getList().get(i).getLogin().equals(signInLogin)) {
-                if (arrayPerson.getList().get(i).getPassword().equals(signInPassword)) {
-                    System.out.println("Добро пожаловать, мистер " + signInLogin + "!");
-                } else {
-                    System.out.println("Вы ввели неверный пароль! Зарегистрируйте новый аккаунт или повторите попытку.");
-                }
-                i = arrayPerson.getList().size();
-                trigger = true;
-            }
-        }
-        if (!trigger) {
-            System.out.println("Пользователя с таким логином не найдено. Зарегистрируйте новый аккаунт.\n");
+        long countDouble = arrayPerson.getList().stream().filter(x -> x.getLogin().equals(signInLogin)).
+                filter(x -> x.getPassword().equals(signInPassword)).count();
+        if (countDouble > 0) {
+            System.out.println("Добро пожаловать, мистер " + signInLogin + "!");
+            return true;
+        } else {
+            System.out.println("Данная связка " + signInLogin + "/" + signInPassword + " не зарегистрирована"
+                    + "в системе. Попробуйте, пожалуйста, еще раз!");
+            return false;
         }
     }
 
     //создание новой записи
-    void createNewAccount() {
+    boolean createNewAccount() {
         System.out.println("Введите логин: ");
         person.setLogin(scanner.next());
         System.out.println("Введите пароль: ");
@@ -52,13 +46,20 @@ class Methods extends JsonPath {
         System.out.println("Login: " + person.getLogin() + ", password: " + person.getPassword() + ". \n"
                 + "Если согласны, нажмите 1. Если нет - 0.");
         int i = scanner.nextInt();
-        if (i == 1) {
+        long doubleCount = arrayPerson.getList().stream().filter(x -> x.getLogin().equals(person.getLogin())).count();
+        if (i == 1 & doubleCount == 0) {
             arrayPerson.getList().add(new ArrayPerson.Person(person.getLogin(), person.getPassword(), getSysdate()));
             System.out.println("Рады пополнению наших рядов, мистер " + person.getLogin() + "!");
-        } else if (scanner.nextInt() == 0) {
+            return true;
+        } else if (i == 1 & doubleCount > 0) {
+            System.out.println("Пользователь с таким логином уже зарегистрирован");
+            return false;
+        } else if (i == 0) {
             System.out.print("Отмена операции.");
+            return false;
         } else {
             System.out.println("Вы ввели некорректный символ.");
+            return false;
         }
     }
 
@@ -140,21 +141,8 @@ class Methods extends JsonPath {
     private void editLogin(int index) {
         System.out.println("Введите новый оригинальный логин:");
         String newLogin = scanner.next();
-        boolean check = true;
-        //тестовое изменение
-        Stream<ArrayPerson.Person> streams = arrayPerson.getList().stream();
-        long countDouble = streams.filter(x -> !x.getLogin().equals(newLogin)).count();
-        if (countDouble != 0) {
-            check = false;
-        }
-
-//        for (int i = 0; i < arrayPerson.getList().size(); i++) {
-//            if (arrayPerson.getList().get(i).getLogin().equals(newLogin)) {
-//                check = false;
-//            }
-//        }
-
-        if (check) {
+        long countDouble = arrayPerson.getList().stream().filter(x -> !x.getLogin().equals(newLogin)).count();
+        if (countDouble == 0) {
             arrayPerson.getList().get(index - 1).setLogin(newLogin);
             arrayPerson.getList().get(index - 1).setUpdatedDate(getSysdate());
             System.out.println("Логин успешно изменен.");
@@ -201,7 +189,7 @@ class Methods extends JsonPath {
     //метод возврата текущей даты
     private String getSysdate() {
         Date date = new Date();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.mm.yyyy HH:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
         String sysdate = simpleDateFormat.format(date);
         return sysdate;
     }

@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaLessons/StreamsLessons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.json" beforeDir="false" afterPath="$PROJECT_DIR$/Person.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="146" column="30" lean-forward="true" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+            <state relative-caret-position="452">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,19 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +76,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,9 +124,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Map/JsonPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/Map/Gui.java" />
         <option value="$PROJECT_DIR$/src/main/java/Map/Methods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumLessons/ru/deliveryClub/JapaneseMom.java" />
@@ -138,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/test/java/myDeliveryClub/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaLessons/StreamsLessons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java" />
       </list>
     </option>
@@ -162,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +207,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -484,7 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571414295812</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="StreamTest 0.1">
+      <created>1572470724601</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572470724601</updated>
+    </task>
+    <task id="LOCAL-00025" summary="StreamTest 0.2">
+      <created>1572470739776</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1572470739776</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,7 +543,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" sideWeight="0.23913044" side_tool="true" weight="0.35714287" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,8 +557,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32887402" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45842218" weight="0.18394649" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41897655" side_tool="true" visible="true" weight="0.30100334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45788914" weight="0.30880713" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.54211086" side_tool="true" weight="0.2909699" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49573562" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -584,7 +595,9 @@
     <MESSAGE value="Map 1.1" />
     <MESSAGE value="Map 1.11" />
     <MESSAGE value="Delivery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delivery" />
+    <MESSAGE value="StreamTest 0.1" />
+    <MESSAGE value="StreamTest 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="StreamTest 0.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -847,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/JapaneseMom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -881,16 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/JsonPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -911,10 +907,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myDeliveryClub/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/ArrayPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -923,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkMap/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="146" column="30" lean-forward="true" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+        <state relative-caret-position="452">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
