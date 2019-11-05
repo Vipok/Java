@@ -25,14 +25,14 @@ class Methods extends JsonPath {
         String signInLogin = scanner.next();
         System.out.println("Введите пароль: ");
         String signInPassword = scanner.next();
-        long countDouble = arrayPerson.getList().stream().filter(x -> x.getLogin().equals(signInLogin)).
-                filter(x -> x.getPassword().equals(signInPassword)).count();
+        long countDouble = arrayPerson.getList().stream().
+                filter(x -> x.getLogin().equals(signInLogin) && (x.getPassword().equals(signInPassword))).count();
         if (countDouble > 0) {
             System.out.println("Добро пожаловать, мистер " + signInLogin + "!");
             return true;
         } else {
             System.out.println("Данная связка " + signInLogin + "/" + signInPassword + " не зарегистрирована"
-                    + "в системе. Попробуйте, пожалуйста, еще раз!");
+                    + " в системе. Попробуйте, пожалуйста, еще раз!");
             return false;
         }
     }
@@ -112,12 +112,16 @@ class Methods extends JsonPath {
             System.out.println("Вы уверены, что хотите изменить параметры этого пользователя? (Y/N)\n"
                     + GSON.toJson(arrayPerson.getList().get(index - 1)));
         }
-        if (scanner.next().equals("Y")) {
-            editParamsPerson(index);
-        } else if (scanner.next().equals("N")) {
-            System.out.println("Выход в главное меню.\n");
-        } else {
-            System.out.println("Введен некорректный символ отмены.\n");
+        switch (scanner.next()) {
+            case "Y":
+                editParamsPerson(index);
+                break;
+            case "N":
+                System.out.println("Выход в главное меню.\n");
+                break;
+            default:
+                System.out.println("Введен некорректный символ отмены.\n");
+                break;
         }
     }
 
@@ -126,14 +130,19 @@ class Methods extends JsonPath {
         System.out.println("Выберете параметр, который хотите изменить:\n"
                 + "1. Логин.\n2. Пароль.\n0. Отмена.");
         int answer = scanner.nextInt();
-        if (answer == 1) {
-            editLogin(index);
-        } else if (answer == 2) {
-            editPassword(index);
-        } else if (answer == 0) {
-            System.out.println("Выход в главное меню.\n");
-        } else {
-            System.out.println("Введен некорректный символ отмены.\n");
+        switch (answer) {
+            case 1:
+                editLogin(index);
+                break;
+            case 2:
+                editPassword(index);
+                break;
+            case 0:
+                System.out.println("Выход в главное меню.\n");
+                break;
+            default:
+                System.out.println("Введен некорректный символ отмены.\n");
+                break;
         }
     }
 
@@ -141,7 +150,7 @@ class Methods extends JsonPath {
     private void editLogin(int index) {
         System.out.println("Введите новый оригинальный логин:");
         String newLogin = scanner.next();
-        long countDouble = arrayPerson.getList().stream().filter(x -> !x.getLogin().equals(newLogin)).count();
+        long countDouble = arrayPerson.getList().stream().filter(x -> x.getLogin().equals(newLogin)).count();
         if (countDouble == 0) {
             arrayPerson.getList().get(index - 1).setLogin(newLogin);
             arrayPerson.getList().get(index - 1).setUpdatedDate(getSysdate());
