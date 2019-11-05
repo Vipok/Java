@@ -181,13 +181,17 @@ class Methods extends JsonPath {
         if (index <= arrayPerson.getList().size() & index > 0) {
             System.out.println("Вы уверены, что хотите удалть этого пользователя? (Y/N)\n"
                     + GSON.toJson(arrayPerson.getList().get(index - 1)));
-            if (scanner.next().equals("Y")) {
-                arrayPerson.getList().remove(index - 1);
-                System.out.println("Удаление успешно выполнено.\n");
-            } else if (scanner.next().equals("N")) {
-                System.out.println("Выход в главное меню.\n");
-            } else {
-                System.out.println("Введен некорректный символ отмены.\n");
+            switch (scanner.next()) {
+                case "Y":
+                    arrayPerson.getList().remove(index - 1);
+                    System.out.println("Удаление успешно выполнено.\n");
+                    break;
+                case "N":
+                    System.out.println("Выход в главное меню.\n");
+                    break;
+                default:
+                    System.out.println("Введен некорректный символ отмены.\n");
+                    break;
             }
         } else {
             System.out.println("Указан некоррктный номер пользователя: либо больше 0, либо такого пользователя не "
