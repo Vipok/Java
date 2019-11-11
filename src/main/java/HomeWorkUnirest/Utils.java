@@ -7,12 +7,14 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class Utils {
     private static Scanner scanner = new Scanner(System.in);
     private static ArrayList<ObjectOfTranslation> translationList = new ArrayList<>();
-    private static YandexUrlObjects yandexUrlObjects = new YandexUrlObjects();
+    private static Properties property = new Properties();
+    private static FileInputStream fis;
 
     //десериализация
     private static void deserializableJson() {
@@ -35,15 +37,15 @@ public class Utils {
 
     //метод перевода
     private void translator() throws UnirestException {
-        String language = "\"Доступные языки:\nru - Русский;\nen - Английский;\n"
-                + "es - Испанский;\nit - Итальянский;";
+        String language = "\"Доступные языки:\nRU - Русский;\nEN - Английский;\n"
+                + "ES - Испанский;\nIT - Итальянский;";
         System.out.println("Выберите язык, с которого требуется осуществить перевод (значение из 2-х заглавных букв).\n"
                 + language);
         String languageIn = scanner.next();
-        System.out.println("Выбранный вами язык: " + Language.valueOf(languageIn).getLanguageRus() + "\nВыберите язык, "
+        System.out.println("Выбранный вами язык: " + Language.valueOf(languageIn).getValue() + "\nВыберите язык, "
                 + "на который требуется осуществить перевод (значение из 2-х заглавных букв).\n" + language);
         String languageOut = scanner.next();
-        System.out.println("Выбранный вами язык: " + Language.valueOf(languageOut).getLanguageRus()
+        System.out.println("Выбранный вами язык: " + Language.valueOf(languageOut).getValue()
                 + "\nВведите текст, который требуется перевести: ");
         String textIn = scanner.next();
         long count = translationList.stream().filter(x -> x.getTextIn().equals(textIn) && x.getLanguageIn().equals(languageIn)
@@ -63,12 +65,20 @@ public class Utils {
 
     //метод выполнения вызова Яндекс Переводчика
     private String callYandexTranslator(String textIn, String languageIn, String languageOut) throws UnirestException {
-        final HttpResponse<JsonNode> response = Unirest.get(yandexUrlObjects.getUrl())
-                .queryString("text", textIn)
-                .queryString("key", yandexUrlObjects.getApiKey()).queryString("lang",
-                        languageIn + "-" + languageOut)
-                .asJson();
-        return response.getBody().getObject().getJSONArray("text").get(0).toString();
+        String responseRest = null;
+        try {
+            fis = new FileInputStream("J:\\Java\\ProjectJava\\src\\main\\resources\\unirest.properties");
+            property.load(fis);
+            final HttpResponse<JsonNode> response = Unirest.get(property.getProperty("url"))
+                    .queryString("text", textIn)
+                    .queryString("key", property.getProperty("apikey")).queryString("lang",
+                            languageIn + "-" + languageOut)
+                    .asJson();
+            responseRest = response.getBody().getObject().getJSONArray("text").get(0).toString();
+        } catch (IOException e) {
+            System.err.println("Файл с настройками отсутствует.");
+        }
+        return responseRest;
     }
 
     //метод возврата списка переводов

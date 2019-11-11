@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TranslationsList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/unirest.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/ObjectOfTranslation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/ObjectOfTranslation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,20 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="266">
+              <caret line="47" column="93" lean-forward="true" selection-start-line="47" selection-start-column="93" selection-end-line="47" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,37 +44,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexJsonObjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/ObjectOfTranslation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -122,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/List/ArrayListClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/ArrayIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/List2/Stock.java" />
@@ -169,10 +138,11 @@
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/ObjectOfTranslation.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java" />
         <option value="$PROJECT_DIR$/TranslationsList.txt" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/unirest.properties" />
         <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java" />
       </list>
     </option>
   </component>
@@ -195,7 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,33 +197,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWorkEnum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWorkMap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HomeWorkUnirest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -264,6 +226,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\Java\ProjectJava\src\main\resources" />
       <recent name="J:\Java\ProjectJava\src\main\java" />
       <recent name="Z:\Java\ProjectJava\src\JavaLessons" />
     </key>
@@ -576,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573074346868</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Yandex 1.0">
+      <created>1573163135985</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1573163135985</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Yandex 1.01">
+      <created>1573163176032</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1573163176032</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -622,9 +599,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.26812366" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76086956" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" sideWeight="0.23913044" side_tool="true" weight="0.35714287" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -633,13 +609,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3411371" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51492536" visible="true" weight="0.3857302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5143923" visible="true" weight="0.3857302" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32887402" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45788914" weight="0.30880713" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48507464" side_tool="true" visible="true" weight="0.3857302" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48560768" side_tool="true" visible="true" weight="0.3857302" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49520257" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -654,8 +630,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit" />
-    <MESSAGE value="List 1.0" />
     <MESSAGE value="Selenium" />
     <MESSAGE value="List 2.0" />
     <MESSAGE value="List 3.0" />
@@ -679,7 +653,9 @@
     <MESSAGE value="StreamTest 1.1" />
     <MESSAGE value="Unirest" />
     <MESSAGE value="Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methods" />
+    <MESSAGE value="Yandex 1.0" />
+    <MESSAGE value="Yandex 1.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yandex 1.01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -696,18 +672,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar!/com/fasterxml/jackson/core/filter/FilteringGeneratorDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaLessons/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -949,39 +913,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslationsList.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TranslationsList.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexJsonObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslationsList.txt" />
+    <entry file="file://$PROJECT_DIR$/src/TranslationsList.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexJsonObjects.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkLambda/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -999,30 +933,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TranslationsList.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/ObjectOfTranslation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/YandexUrlObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="152">
+          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TranslationsList.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/unirest.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/TranslatorGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkUnirest/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="47" column="93" lean-forward="true" selection-start-line="47" selection-start-column="93" selection-end-line="47" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

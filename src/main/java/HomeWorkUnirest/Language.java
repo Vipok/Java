@@ -1,18 +1,39 @@
 package HomeWorkUnirest;
 
+import lombok.Getter;
+
 public enum Language {
-    ru("Русский"),
-    en("Английский"),
-    it("Итальянский"),
-    es("Испанский");
+    RU("Русский") {
+        @Override
+        String getLanguage() {
+            return "ru";
+        }
+    },
+    EN("Английский") {
+        @Override
+        String getLanguage() {
+            return "en";
+        }
+    },
+    IT("Итальянский") {
+        @Override
+        String getLanguage() {
+            return "it";
+        }
+    },
+    ES("Испанский") {
+        @Override
+        String getLanguage() {
+            return "es";
+        }
+    };
 
-    private String languageRus;
+    @Getter
+    private String value;
 
-    public String getLanguageRus() {
-        return languageRus;
-    }
+    abstract String getLanguage();
 
-    Language(String getLanguageRus) {
-        this.languageRus = getLanguageRus;
+    Language(String s) {
+        value = s;
     }
 }
