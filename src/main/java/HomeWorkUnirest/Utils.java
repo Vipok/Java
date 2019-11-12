@@ -1,20 +1,21 @@
 package HomeWorkUnirest;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import org.json.JSONObject;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class Utils {
+class Utils {
     private static Scanner scanner = new Scanner(System.in);
     private static ArrayList<ObjectOfTranslation> translationList = new ArrayList<>();
     private static Properties property = new Properties();
-    private static FileInputStream fis;
 
     //десериализация
     private static void deserializableJson() {
@@ -35,50 +36,77 @@ public class Utils {
         }
     }
 
+    //метод вывода списка доступных языков в консоль.
+    private static void languageList() {
+        System.out.println("Список доступных языков: ");
+        for (Language lang : Language.values()) {
+            System.out.println(lang.getLanguage() + " - " + lang.getValue() + ";");
+        }
+    }
+
     //метод перевода
     private void translator() throws UnirestException {
-        String language = "\"Доступные языки:\nRU - Русский;\nEN - Английский;\n"
-                + "ES - Испанский;\nIT - Итальянский;";
-        System.out.println("Выберите язык, с которого требуется осуществить перевод (значение из 2-х заглавных букв).\n"
-                + language);
+        System.out.println("Выберите язык, с которого требуется осуществить перевод (значение из 2-х заглавных букв).\n");
+        languageList();
         String languageIn = scanner.next();
-        System.out.println("Выбранный вами язык: " + Language.valueOf(languageIn).getValue() + "\nВыберите язык, "
-                + "на который требуется осуществить перевод (значение из 2-х заглавных букв).\n" + language);
+        System.out.println("Выбранный вами язык: " + Language.valueOf(languageIn.toUpperCase()).getValue()
+                + "\nВыберите язык, на который требуется осуществить перевод (значение из 2-х заглавных букв).\n");
+        languageList();
         String languageOut = scanner.next();
-        System.out.println("Выбранный вами язык: " + Language.valueOf(languageOut).getValue()
+        System.out.println("Выбранный вами язык: " + Language.valueOf(languageOut.toUpperCase()).getValue()
                 + "\nВведите текст, который требуется перевести: ");
         String textIn = scanner.next();
-        long count = translationList.stream().filter(x -> x.getTextIn().equals(textIn) && x.getLanguageIn().equals(languageIn)
-                && x.getLanguageOut().equals(languageOut)).count();
+        ObjectOfTranslation text = translationList.stream().filter(x -> x.getTextIn().equals(textIn)
+                && x.getLanguageIn().equals(languageIn)
+                && x.getLanguageOut().equals(languageOut)).findFirst().orElse(null);
         String textOut;
-        if (count == 0) {
-            textOut = callYandexTranslator(textIn, languageIn, languageOut);
-            System.out.println("\nОжидайте: \nПеревод (из переводчика): " + textOut);
-            translationList.add(new ObjectOfTranslation.ObjectOfTranslationBuilder().languageIn(languageIn)
-                    .languageOut(languageOut).textIn(textIn).textOut(textOut).build());
+        if (text == null) {
+            textOut = callYandexTranslatorObj(textIn, languageIn, languageOut).getText()[0];
+            text = new ObjectOfTranslation.ObjectOfTranslationBuilder().languageIn(languageIn)
+                    .languageOut(languageOut).textIn(textIn).textOut(textOut).build();
             serializableJson();
-        } else {
-            textOut = translationList.stream().filter(x -> x.getTextIn().equals(textIn)).findFirst().get().getTextOut();
-            System.out.println("\nОжидайте: \nПеревод (из листа): " + textOut);
         }
+        System.out.println("Перевод: " + text.getTextOut());
+        translationList.add(text);
     }
 
     //метод выполнения вызова Яндекс Переводчика
     private String callYandexTranslator(String textIn, String languageIn, String languageOut) throws UnirestException {
         String responseRest = null;
         try {
-            fis = new FileInputStream("J:\\Java\\ProjectJava\\src\\main\\resources\\unirest.properties");
+            FileInputStream fis = new FileInputStream("J:\\Java\\ProjectJava\\src\\main\\resources\\unirest.properties");
             property.load(fis);
             final HttpResponse<JsonNode> response = Unirest.get(property.getProperty("url"))
-                    .queryString("text", textIn)
+                    .queryString("text", textIn.toLowerCase())
                     .queryString("key", property.getProperty("apikey")).queryString("lang",
-                            languageIn + "-" + languageOut)
+                            languageIn.toLowerCase() + "-" + languageOut.toLowerCase())
                     .asJson();
             responseRest = response.getBody().getObject().getJSONArray("text").get(0).toString();
         } catch (IOException e) {
             System.err.println("Файл с настройками отсутствует.");
         }
         return responseRest;
+    }
+
+    //метод выполнения вызова Яндекс Переводчика, но через ObjectMapper.
+    private static YandexTranslatorObjects callYandexTranslatorObj(String textIn, String languageIn, String languageOut)
+            throws UnirestException {
+        ObjectMapper mapper = new ObjectMapper();
+        YandexTranslatorObjects objects = new YandexTranslatorObjects();
+        try {
+            FileInputStream fis = new FileInputStream("J:\\Java\\ProjectJava\\src\\main\\resources\\unirest.properties");
+            property.load(fis);
+            final HttpResponse<JsonNode> response = Unirest.get(property.getProperty("url"))
+                    .queryString("text", textIn.toLowerCase())
+                    .queryString("key", property.getProperty("apikey")).queryString("lang",
+                            languageIn.toLowerCase() + "-" + languageOut.toLowerCase())
+                    .asJson();
+            JSONObject obj = response.getBody().getObject();
+            objects = mapper.readValue(obj.toString(), YandexTranslatorObjects.class);
+        } catch (IOException e) {
+            System.err.println("Файл с настройками отсутствует.");
+        }
+        return objects;
     }
 
     //метод возврата списка переводов
@@ -89,7 +117,7 @@ public class Utils {
     }
 
     //метод главного меню
-    public void mainMenu() throws Exception {
+    void mainMenu() throws Exception {
         System.out.println("Добрый день.");
         deserializableJson();
         boolean trigger = true;
