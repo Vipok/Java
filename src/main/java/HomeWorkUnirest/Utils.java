@@ -64,10 +64,10 @@ class Utils {
             textOut = callYandexTranslatorObj(textIn, languageIn, languageOut).getText()[0];
             text = new ObjectOfTranslation.ObjectOfTranslationBuilder().languageIn(languageIn)
                     .languageOut(languageOut).textIn(textIn).textOut(textOut).build();
+            translationList.add(text);
             serializableJson();
         }
         System.out.println("Перевод: " + text.getTextOut());
-        translationList.add(text);
     }
 
     //метод выполнения вызова Яндекс Переводчика
