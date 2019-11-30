@@ -7,11 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893ec31c-e25d-47ca-9add-7891a4eba008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWorkJaxWs/TechSpec.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWorkJaxWs/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWorkStreamApi/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TranslationsList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TranslationsList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWorkStreamApi/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWorkStreamApi/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algoritmy/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algoritmy/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generics/ClassExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Generics/ClassExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generics/GenericArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Generics/GenericArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generics/GenericLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Generics/GenericLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/Animals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsAves.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsAves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsMammalia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsMammalia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsPisces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AnimalsPisces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesCondor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesCondor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesCrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesCrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesJakoParrot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/AvesJakoParrot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaBlueWhale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaBlueWhale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaElephants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaElephants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaHumans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/MammaliaHumans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesAnglerfish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesAnglerfish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesPufferFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesPufferFish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesSalpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkAnimals/PiscesSalpa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkEnum/Mounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkEnum/Mounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkEnum/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkEnum/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/AgeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/AgeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/DuplicatesException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/DuplicatesException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/Kittens$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/Kittens$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/Kittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/Kittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/TechSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreMain/TechSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/AddKittensForSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/AddKittensForSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/EditParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/EditParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/Kittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/Kittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/KittensCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/KittensCommands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/ListOfKittensForSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/ListOfKittensForSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/ReadFileKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/ReadFileKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/SaleForKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/SaleForKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/TestKits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/TestKits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/WriteFileKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV2/WriteFileKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/AddKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/AddKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/AddKittensForSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/AddKittensForSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/EditParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/EditParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/Kittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/Kittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/ListOfKittens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/ListOfKittens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/ListOfKittensForSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/ListOfKittensForSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkJavaCoreV3/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeWorkSort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeWorkSort/ShellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/ChoiceSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/ChoiceSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/GenericsLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/GenericsLesson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/LessonsFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/LessonsFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/SortByEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/SortByEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/SortNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/SortNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/TestOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/TestOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/Testt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/Testt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaLessons/ThanosSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaLessons/ThanosSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serialization/ArrayListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serialization/ArrayListExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serialization/Deser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serialization/Deser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serialization/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serialization/Employee.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJaxWs/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -44,10 +105,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkStreamApi/Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="318">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/Kittens.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -206,14 +269,6 @@
               <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWorkStreamApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -305,16 +360,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pokushac.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Work.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myDeliveryClub.*" />
+          <option name="PATTERN" value="HomeWorkStreamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myDeliveryClub" />
-      <option name="MAIN_CLASS_NAME" value="myDeliveryClub.Pokushac" />
+      <option name="PACKAGE_NAME" value="HomeWorkStreamApi" />
+      <option name="MAIN_CLASS_NAME" value="HomeWorkStreamApi.Work" />
       <option name="METHOD_NAME" value="execute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -324,10 +379,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Work" />
+        <item itemvalue="JUnit.Work.execute" />
         <item itemvalue="Application.TranslatorGui" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.Gui" />
-        <item itemvalue="JUnit.Pokushac.execute" />
       </list>
     </recent_temporary>
   </component>
@@ -573,13 +628,17 @@
       <option name="project" value="LOCAL" />
       <updated>1573595788169</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Map">
+      <created>1575138151110</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1575138151110</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 07m 18s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_firstTest - 2019.10.17 at 22h 07m 47s.xml">
       <configuration name="FirstTest.firstTest" configurationId="JUnit" />
     </history-entry>
@@ -607,6 +666,9 @@
     <history-entry file="JapaneseMom_kushac - 2019.10.18 at 19h 06m 15s.xml">
       <configuration name="JapaneseMom.kushac" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Work_execute - 2019.11.30 at 22h 12m 27s.xml">
+      <configuration name="Work.execute" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,13 +692,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3411371" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51226014" visible="true" weight="0.3857302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51226014" visible="true" weight="0.37569678" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32887402" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.45788914" weight="0.30880713" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48773986" side_tool="true" visible="true" weight="0.3857302" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48773986" side_tool="true" visible="true" weight="0.37569678" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4946695" weight="0.30880713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -651,7 +713,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="List 3.0" />
     <MESSAGE value="Queue v. 1.0" />
     <MESSAGE value="Queue v. 1.1" />
     <MESSAGE value="Selenium edit" />
@@ -676,7 +737,8 @@
     <MESSAGE value="Yandex 1.01" />
     <MESSAGE value="Yandex 1.03" />
     <MESSAGE value="Yandex 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yandex 1.1" />
+    <MESSAGE value="Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1018,23 +1080,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJaxWs/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkJavaCoreMain/Kittens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeWorkStreamApi/Work.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="318">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
           </folding>
         </state>
       </provider>
