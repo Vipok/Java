@@ -1,8 +1,5 @@
 package HomeWorkStreamApi;
 
-import com.google.common.annotations.VisibleForTesting;
-import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,8 +40,8 @@ public class Work {
 
         //отладка метода процентов
         double d = 0.0;
-        for (int i = 0; i < doubles.size(); i++){
-            d = d + doubles.get(i);
+        for (Double aDouble : doubles) {
+            d = d + aDouble;
         }
         System.out.println("\n" + d);
         //конец отладки
